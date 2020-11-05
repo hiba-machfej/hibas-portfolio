@@ -1,0 +1,9 @@
+html {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+div > * {
+  height: 100vh;
+  scroll-snap-align: center;
+}

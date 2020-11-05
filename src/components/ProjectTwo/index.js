@@ -1,11 +1,10 @@
 import React from "react";
 import "./index.scss";
-import {Link}
 
-const Body = () => (
-  <div> 
-    <div className="blue page">blue</div>
+const ProjectTwo = () => (
+  <div>
+    <div className="blue page" id="section2">blue</div>
   </div>
 );
 
-export default Body;
+export default ProjectTwo;
