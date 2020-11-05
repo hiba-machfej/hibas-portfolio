@@ -1,11 +1,11 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
-import Body from "../../components/Body";
+import ProjectOne from "../../components/ProjectOne";
 
 const Home = () => (
   <div>
     <Navbar />
-    <Body />
+    <ProjectOne />
   </div>
 );
 
