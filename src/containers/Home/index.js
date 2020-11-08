@@ -7,14 +7,21 @@ import ProjectThree from "../../components/ProjectThree";
 
 const Home = () => {
   return (
-    <>
+    <div>
       <Navbar />
       <div className="scrollSnap">
-        <ProjectOne />
-        <ProjectTwo />
-        <ProjectThree />
+        <div>
+          <ProjectOne className="hello" />
+        </div>
+        <div>
+          <ProjectTwo className="hello" />
+        </div>
+        <div>
+          {" "}
+          <ProjectThree className="hello" />
+        </div>
       </div>
-    </>
+    </div>
   );
 };
 

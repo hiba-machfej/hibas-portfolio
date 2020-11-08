@@ -3,7 +3,9 @@ import "./index.scss";
 
 const ProjectTwo = () => (
   <div>
-    <div className="blue page" id="section2">blue</div>
+    <div className="blue page" id="section2">
+      blue
+    </div>
   </div>
 );
 
