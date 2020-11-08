@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <div>
+      <div className="scrollSnap">
         <ProjectOne />
         <ProjectTwo />
         <ProjectThree />
