@@ -2,33 +2,38 @@ import React from "react";
 import "./index.scss";
 import Navbar from "../../components/Navbar";
 import ProjectOne from "../../components/ProjectOne";
-import ProjectTwo from "../../components/ProjectTwo";
-import ProjectThree from "../../components/ProjectThree";
 
 const Home = () => {
 
   const projectsArr = [
     {
+      name: "Travel Board",
+      shortDescription:
+        "This is my first project ever I was exited to make it.This is my first project ever I was exited to make it.This is my first project ever I was exited to make it.",
+      mainImg: "travelBoardImg",
+      className: "travelBoard",
+    },
+    {
       name: "MaDreamLibs",
       shortDescription:
         "This is my first project ever I was exited to make it.This is my first project ever I was exited to make it.This is my first project ever I was exited to make it.",
       mainImg: "madlibsImg",
-      imgAlt: "Image of MaDreamLibs project",
+      className: "madlibs",
     },
     {
-      name: "project 2",
+      name: "Movies Hub",
       shortDescription:
         "This is my first project ever I was exited to make it.This is my first project ever I was exited to make it.This is my first project ever I was exited to make it.",
-      mainImg: "madlibsImg",
-      imgAlt: "Image of MaDreamLibs project",
+      mainImg: "moviesHubImg",
+      className: "moviesHub",
     },
     {
-      name: "project 3",
+      name: "Makeup Shop",
       shortDescription:
         "This is my first project ever I was exited to make it.This is my first project ever I was exited to make it.This is my first project ever I was exited to make it.",
-      mainImg: "madlibsImg",
-      imgAlt: "Image of MaDreamLibs project",
-    },
+      mainImg: "makeUpShopImg",
+      className: "makeUpShop",
+    }
   ];
 
   const projects = projectsArr.map((projectData) => {
@@ -40,16 +45,6 @@ const Home = () => {
       <Navbar />
       <div className="scrollSnap">
         {projects}
-        {/* <div>
-          <ProjectOne projectData={projectData} />
-        </div>
-        <div>
-          <ProjectTwo className="hello" />
-        </div>
-        <div>
-          {" "}
-          <ProjectThree className="hello" />
-        </div> */}
       </div>
     </div>
   );

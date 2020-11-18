@@ -4,27 +4,26 @@ import madlibsImg from "../../Images/madlibs.jpg";
 import { ReactComponent as Arrow } from "../../Images/Icons/Arrow.svg";
 
 const ProjectOne = ({ projectData }) => {
-  
-
-
-const imageMap = {
-  madlibsImg: madlibsImg,
-};
+  const imageMap = [madlibsImg];
 
   return (
-    <div className="project">
-      <div className="sideLine" />
-      <div className="page">
-        <div className="content">
-          <h1>{projectData.name}</h1>
-          <p>{projectData.shortDescription}</p>
-          <button>
-            Open project
-            <Arrow className="svg" />
-          </button>
-        </div>
-        <div className="imgDiv">
-          <img src={imageMap.madlibsImg} alt={projectData.imgAlt} />
+    <div className={projectData.className}>
+      <div className="project">
+        <div className="sideLine" />
+        <div className="page">
+          <div className="content">
+            <h1>{projectData.name}</h1>
+            <p>{projectData.shortDescription}</p>
+            <button>
+              Open project
+              <Arrow className="svg" />
+            </button>
+          </div>
+          <div className="imgDiv">
+            {imageMap.map((img) => {
+              return <img src={img} alt={projectData.name} />;
+            })}
+          </div>
         </div>
       </div>
     </div>
