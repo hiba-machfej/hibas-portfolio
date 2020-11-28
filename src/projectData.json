@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "path": "/safePlace",
+      "name": "Safe Place",
+      "shortDescription": "This is my first project ever I was exited to make it.This is my first project ever I was exited to make it.This is my first project ever I was exited to make it. This is my first project ever I was exited to make it.This is my first project ever I was exited to make it.This is my first project ever I was exited to make it.",
+      "mainImg": "safePlaceImg"
+    },
+    {
+      "path": "/travelBoard",
+      "name": "Travel Board",
+      "shortDescription": "This is my first project ever I was exited to make it.This is my first project ever I was exited to make it.This is my first project ever I was exited to make it.",
+      "mainImg": "travelBoardImg"
+    },
+    {
+      "path": "/madlibs",
+      "name": "MaDreamLibs",
+      "shortDescription": "This is my first project ever I was exited to make it.This is my first project ever I was exited to make it.This is my first project ever I was exited to make it.",
+      "mainImg": "madlibsImg"
+    },
+    {
+      "path": "/moviesHub",
+      "name": "Movies Hub",
+      "shortDescription": "This is my first project ever I was exited to make it.This is my first project ever I was exited to make it.This is my first project ever I was exited to make it.",
+      "mainImg": "moviesHubImg"
+    },
+    {
+      "path": "/makeUpShop",
+      "name": "Makeup Shop",
+      "shortDescription": "This is my first project ever I was exited to make it.This is my first project ever I was exited to make it.This is my first project ever I was exited to make it.",
+      "mainImg": "makeUpShopImg"
+    }
+  ]
+}
