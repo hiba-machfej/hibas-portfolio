@@ -1,0 +1,167 @@
+@import "../../_StyleVariables";
+
+.description {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem;
+
+  .butterfly1 {
+    position: absolute;
+    width: 5rem;
+    margin-left: 15rem;
+    margin-top: 8.5rem;
+    animation: move 3s ease-in-out infinite;
+
+    @keyframes move {
+      0% {
+        transform: translate3d(2px, 2px, 0px);
+      }
+
+      25% {
+        transform: translate3d(4px, 4px, 0px);
+      }
+
+      50% {
+        transform: translate3d(6px, 6px, 0px);
+      }
+      75% {
+        transform: translate3d(4px, 4px, 0px);
+      }
+      100% {
+        transform: translate3d(2px, 2px, 0px);
+      }
+    }
+  }
+
+  .butterfly2 {
+    position: absolute;
+    width: 4rem;
+    right: 20rem;
+    top: 0.5rem;
+    animation: transform 10s ease-in-out;
+
+    &:hover {
+      transform: translate3d(10px, 10px, 10px);
+    }
+  }
+  .butterfly3 {
+    position: absolute;
+    width: 3rem;
+    right: 58rem;
+    top: 35.5rem;
+    z-index: 1;
+    animation: transform 10s ease-in-out;
+
+    &:hover {
+      transform: translate3d(10px, 10px, 10px);
+    }
+  }
+
+  .aboutMe {
+    align-self: flex-start;
+    // font-family: $mainFontFamily;
+    color: $secondaryColor;
+    font-size: 1.5rem;
+    margin: 0rem;
+
+    span {
+      color: #d09dae;
+      font-weight: bold;
+    }
+  }
+
+  h1 {
+    color: $secondaryColor;
+    font-weight: 300;
+    font-size: 16rem;
+    align-self: center;
+    margin: 0;
+  }
+
+  h3 {
+    color: $primaryColor;
+    font-weight: 300;
+    font-size: 10rem;
+    align-self: flex-end;
+    margin: 0;
+  }
+
+  .hiba {
+    width: 60rem;
+    align-self: center;
+    opacity: 0.4;
+
+    &:hover {
+      opacity: .8;
+    }
+  }
+
+  .hibaAnimation {
+    width: 40rem;
+    align-self: center;
+    opacity: 0.4;
+    animation: size 2s ease;
+
+    @keyframes size {
+      0% {
+        width: 60rem;
+      }
+
+      25% {
+        width: 55rem;
+      }
+
+      50% {
+        width: 50rem;
+      }
+      75% {
+        width: 45rem;
+      }
+      100% {
+        width: 40rem;
+      }
+    }
+    &:hover {
+      opacity: .8;
+    }
+  }
+
+  .developer {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 4rem;
+
+    h2 {
+      color: $primaryColor;
+      font-weight: 300;
+      font-style: italic;
+      font-size: 12rem;
+      align-self: flex-start;
+      margin: 2rem 0;
+    }
+  }
+
+  .introduction {
+    font-family: $mainFontFamily;
+    color: $secondaryColor;
+    align-self: flex-end;
+    width: 30rem;
+    position: absolute;
+    right: 4rem;
+    margin-right: 3rem;
+    top: 43rem;
+    text-align: justify;
+    text-transform: uppercase;
+
+    span {
+      font-style: italic;
+      text-transform: none;
+    }
+
+    .studies {
+      color: $primaryColor;
+      font-weight: 300;
+      text-transform: none;
+    }
+  }
+}
