@@ -1,7 +1,30 @@
+@import "../../StyleVariables";
+
 .navbar {
-  position: absolute;
-  margin-left: 50%;
-  position: fixed;
-  top: 0;
-  width: 100%;
+  margin: 2rem 4rem;
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  font-family: $secondaryFontFamily;
+  .name {
+    margin: 0 2rem;
+    text-decoration: none;
+    color: $primaryColor;
+    font-size: 1.2rem;
+    p {
+      margin: 0;
+      text-align: center;
+    }
+
+    .lastName {
+      transform: rotateX(180deg);
+    }
+  }
+  a {
+    margin-left: 4rem;
+    font-family: $mainFontFamily;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $primaryColor;
+  }
 }
