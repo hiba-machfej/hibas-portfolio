@@ -20,6 +20,14 @@ const Introduction = () => {
     };
   }, []);
 
+  const changeImage = (e) => {
+    if (profileImg === hiba ) {
+      setProfileImg(hibaPurble) 
+    } else {
+      setProfileImg(hiba)
+    } 
+  }
+
   return (
     <div className="description">
       <p className="aboutMe">
@@ -55,8 +63,8 @@ const Introduction = () => {
       <p> Scroll to explore</p>
       <img
         src={profileImg}
-        onMouseOver={(e) => setProfileImg(hibaPurble)}
-        onMouseOut={(e) => setProfileImg(hiba)}
+        onMouseOver={(e) => changeImage(e) }
+        // onMouseOut={(e) => setProfileImg(hiba)}
         alt="Hiba Machfej"
         className={500 < scrollPosition ? "hibaAnimation" : "hiba"}
       />
