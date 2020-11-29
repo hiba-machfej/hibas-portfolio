@@ -12,8 +12,7 @@ const ProjectsList = () => {
     safePlaceImg: safePlaceProject,
     travelBoardImg: travelBoardProject,
     madlibsImg: madlibsProject,
-    moviesHubImg: moviesHubProject,
-    makeUpShopImg: madlibsProject,
+    moviesHubImg: moviesHubProject
   };
 
   const projects = projectData.projects.map((project, index) => {
