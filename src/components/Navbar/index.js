@@ -1,17 +1,16 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import "./index.scss";
 
 const Navbar = () => {
   return (
     <div className="navbar">
-      <NavLink className="name" to="/">
-        <p>HIBA</p>
+      <a className="name" href="/">
+        <p className="firstName">HIBA</p>
         <p className="lastName">MACHFEJ</p>
-      </NavLink>
+      </a>
       <div className="links">
-        <NavLink to="section1">Projects</NavLink>
-        <NavLink to="section1">About</NavLink>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
       </div>
     </div>
   );

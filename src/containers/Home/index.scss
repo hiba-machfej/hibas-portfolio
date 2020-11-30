@@ -2,13 +2,4 @@
 
 .HomePage {
   font-family: $secondaryFontFamily;
-  width: 90vw;
-  margin: 4rem;
-}
-
-@include media-breakpoint-down(md) {
-  .HomePage {
-    width: 100%;
-    margin: 0;
-  }
 }

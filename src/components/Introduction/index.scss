@@ -1,12 +1,14 @@
 @import "../../_StyleVariables";
 
 .description {
+  margin: 4rem 6rem;
+  height: 92rem;
   display: flex;
   flex-direction: column;
-  margin: 0 2rem;
 
   .butterfly1 {
     position: absolute;
+    z-index: 1;
     width: 5rem;
     margin-left: 22rem;
     margin-top: 8rem;
@@ -30,30 +32,6 @@
       100% {
         transform: translate3d(2px, 2px, 0px);
       }
-    }
-  }
-
-  .butterfly2 {
-    position: absolute;
-    width: 4rem;
-    right: 20rem;
-    top: 0.5rem;
-    animation: transform 10s ease-in-out;
-
-    &:hover {
-      transform: translate3d(10px, 10px, 10px);
-    }
-  }
-  .butterfly3 {
-    position: absolute;
-    width: 3rem;
-    right: 58rem;
-    top: 35.5rem;
-    z-index: 1;
-    animation: transform 10s ease-in-out;
-
-    &:hover {
-      transform: translate3d(10px, 10px, 10px);
     }
   }
 
@@ -90,7 +68,7 @@
   .hiba {
     width: 60rem;
     align-self: center;
-    opacity: 0.4;
+    opacity: 0.6;
 
     &:hover {
       opacity: 0.8;
@@ -100,7 +78,7 @@
   .hibaAnimation {
     width: 40rem;
     align-self: center;
-    opacity: 0.4;
+    opacity: 0.6;
     animation: size 2s ease;
 
     @keyframes size {
@@ -135,13 +113,17 @@
     position: absolute;
     right: 3rem;
     margin-right: 4rem;
-    top: 43rem;
+    top: 44rem;
     text-align: justify;
     text-transform: uppercase;
 
     span {
       font-style: italic;
       text-transform: none;
+    }
+
+    a {
+      color: #694e5a;
     }
 
     .studies {
@@ -158,6 +140,7 @@
     margin: 4rem 0;
     justify-content: center;
     text-align: center;
+    height: auto;
 
     .aboutMe {
       font-size: 1.1rem;
@@ -196,7 +179,7 @@
     .hibaAnimation {
       width: 30rem;
       animation: none;
-      opacity: 1;
+      opacity: 0.8;
     }
 
     .introduction {

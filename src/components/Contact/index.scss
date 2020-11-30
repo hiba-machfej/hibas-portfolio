@@ -1,0 +1,106 @@
+@import "../../StyleVariables";
+
+.contact {
+  padding: 12rem 5rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #694e5a;
+  color: #f6f4f2;
+  flex-wrap: wrap;
+
+  .butterfly3 {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    right: 10rem;
+    bottom: 25rem;
+
+    z-index: 1;
+    animation: transform 5s ease-in-out;
+
+    &:hover {
+      transform: translate3d(20px, 10px, 25px);
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+
+  h1 {
+    margin: 0;
+    color: #f6f4f2;
+    font-weight: 400;
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+
+  .contactText {
+    font-family: $mainFontFamily;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+
+    a {
+      align-self: flex-end;
+      color: #f6f4f2;
+      &:visited,
+      &focus,
+      &:hover {
+        color: #f6f4f2;
+        outline: none;
+      }
+    }
+
+    svg {
+      width: 1.2rem;
+      height: 1.2rem;
+      margin-top: 1rem;
+      path {
+        fill: #f6f4f2;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .contact {
+    padding: 6rem 2rem;
+    justify-content: center;
+
+    .butterfly3 {
+      position: absolute;
+      width: 4rem;
+      height: 4rem;
+      right: 3rem;
+      bottom: 32rem;
+
+      z-index: 1;
+      animation: transform 5s ease-in-out;
+
+      &:hover {
+        transform: translate3d(20px, 10px, 25px);
+      }
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+
+    .contactText {
+      margin-left: 0rem;
+      margin-top: 3rem;
+
+      a {
+        margin-top: 1rem;
+        align-self: center;
+      }
+    }
+  }
+}

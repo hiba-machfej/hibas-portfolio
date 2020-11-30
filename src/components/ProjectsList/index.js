@@ -1,11 +1,12 @@
 import React from "react";
 import projectData from "../../projectData.json";
 import ProjectImg from "./projectImg.js";
-import madlibsProject from "../../images/projects/madlibs.jpg";
-import travelBoardProject from "../../images/projects/travelboard.jpg";
-import safePlaceProject from "../../images/projects/safeplace.jpg";
-import moviesHubProject from "../../images/projects/moviesHub.jpg";
-import { ReactComponent as Arrow } from "../../images/icons/Arrow.svg";
+import madlibsProject from "../../Images/ProjectsImg/madlibs.jpg";
+import travelBoardProject from "../../Images/ProjectsImg/travelboard.jpg";
+import safePlaceProject from "../../Images/ProjectsImg/safeplace.jpg";
+import moviesHubProject from "../../Images/ProjectsImg/moviesHub.jpg";
+import butterflies2 from "../../Images/butterflies2.png";
+import { ReactComponent as Arrow } from "../../Images/Icons/arrow.svg";
 import "./index.scss";
 
 const ProjectsList = ({ setCursorStyle }) => {
@@ -42,8 +43,9 @@ const ProjectsList = ({ setCursorStyle }) => {
   });
 
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <h1>Recent Projects</h1>
+      <img src={butterflies2} alt="Butterfly" className="butterfly2" />
       {projects}
     </div>
   );

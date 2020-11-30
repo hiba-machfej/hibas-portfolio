@@ -1,8 +1,7 @@
 import React from "react";
-import hiba from "../../images/hiba.jpg";
-import hibaPurble from "../../images/hibaPurble.jpg";
-import butterflies1 from "../../images/butterflies1.png";
-import butterflies2 from "../../images/butterflies2.png";
+import hiba from "../../Images/hiba.jpg";
+import hibaPurble from "../../Images/hibaPurble.jpg";
+import butterflies1 from "../../Images/butterflies1.png";
 import "./index.scss";
 
 const Introduction = () => {
@@ -25,8 +24,6 @@ const Introduction = () => {
       <p className="aboutMe">
         Hi there, I'm <span>Hiba Machfej</span>, and I'm a
       </p>
-
-      <img src={butterflies2} alt="Butterfly" className="butterfly2" />
 
       <img src={butterflies1} alt="Butterfly1" className="butterfly1" />
       <h1>Front-end</h1>

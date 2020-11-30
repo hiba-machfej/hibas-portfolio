@@ -2,6 +2,7 @@
 
 .projects {
   color: $primaryColor;
+  margin: 0 4rem;
   h1 {
     position: absolute;
     color: $primaryColor;
@@ -10,6 +11,19 @@
     top: 85rem;
     text-align: center;
     margin-left: 2rem;
+  }
+
+  .butterfly2 {
+    position: absolute;
+    width: 5rem;
+    top: 92rem;
+    left: 72rem;
+    animation: transform 10s ease-in-out;
+    z-index: 1;
+
+    &:hover {
+      transform: translate3d(10px, 10px, 10px);
+    }
   }
 
   a {
@@ -49,7 +63,7 @@
 
     .text {
       width: 40rem;
-      padding: 8rem 5rem;
+      padding: 2rem;
       height: auto;
       text-align: justify;
       display: flex;
@@ -100,6 +114,12 @@
       top: 0;
     }
 
+    .butterfly2 {
+      width: 4rem;
+      top: 80rem;
+      left: 35rem;
+    }
+
     .project {
       margin: 4rem 2rem;
       height: 100%;
@@ -147,6 +167,10 @@
 @include media-breakpoint-down(sm) {
   .projects {
     margin: 2rem;
+    .butterfly2 {
+      top: 70rem;
+      left: 18rem;
+    }
     .project {
       .text {
         width: 20rem;
