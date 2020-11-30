@@ -1,7 +1,7 @@
 import React from "react";
 import profilePicture from "../../Images/profilePicture.jpg";
 import profilePictureEdit from "../../Images/profilePictureEdit.jpg";
-import butterflies1 from "../../Images/butterflies1.png";
+import butterfly1 from "../../Images/butterfly1.png";
 import "./index.scss";
 
 const Introduction = () => {
@@ -25,7 +25,7 @@ const Introduction = () => {
         Hi there, I'm <span>Hiba Machfej</span>, and I'm a
       </p>
 
-      <img src={butterflies1} alt="Butterfly1" className="butterfly1" />
+      <img src={butterfly1} alt="Butterfly1" className="butterfly1" />
       <h1>Front-end</h1>
 
       <div className="developer">

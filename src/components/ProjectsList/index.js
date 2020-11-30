@@ -5,7 +5,7 @@ import madlibsProject from "../../Images/ProjectsImg/madlibs.jpg";
 import travelBoardProject from "../../Images/ProjectsImg/travelboard.jpg";
 import safePlaceProject from "../../Images/ProjectsImg/safeplace.jpg";
 import moviesHubProject from "../../Images/ProjectsImg/moviesHub.jpg";
-import butterflies2 from "../../Images/butterflies2.png";
+import butterfly2 from "../../Images/butterfly2.png";
 import { ReactComponent as Arrow } from "../../Images/Icons/arrow.svg";
 import "./index.scss";
 
@@ -45,7 +45,7 @@ const ProjectsList = ({ setCursorStyle }) => {
   return (
     <div className="projects" id="projects">
       <h1>Recent Projects</h1>
-      <img src={butterflies2} alt="Butterfly" className="butterfly2" />
+      <img src={butterfly2} alt="Butterfly" className="butterfly2" />
       {projects}
     </div>
   );
