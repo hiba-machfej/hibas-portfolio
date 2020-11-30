@@ -33,12 +33,22 @@ const Introduction = () => {
 
       <div className="developer">
         <h2>Developer</h2>
-        <div className="introduction">
+       
+      </div>
+     
+      <p className="scroll"> Scroll to explore</p>
+      <img
+        src={profileImg}
+        onMouseOver={(e) => setProfileImg(hibaPurble)}
+        onMouseOut={(e) => setProfileImg(hiba)}
+        alt="Hiba Machfej"
+        className={500 < scrollPosition ? "hibaAnimation" : "hiba"}
+      />
+       <div className="introduction">
           <p>
             I am on a mission 🚀 aiming to improve people's lives with
             technology.
             <span>
-              {" "}
               "because people who are crazy enough to think that they can change
               the world, are the ones who do." -Steve Jobs
             </span>
@@ -57,15 +67,6 @@ const Introduction = () => {
             translate my past experiences into digital products. aren't you?
           </p>
         </div>
-      </div>
-      <p> Scroll to explore</p>
-      <img
-        src={profileImg}
-        onMouseOver={(e) => setProfileImg(hibaPurble)}
-        onMouseOut={(e) => setProfileImg(hiba)}
-        alt="Hiba Machfej"
-        className={500 < scrollPosition ? "hibaAnimation" : "hiba"}
-      />
     </div>
   );
 };

@@ -13,7 +13,7 @@
   transition: all 150ms ease;
 }
 
-.try {
+.viewCursor {
   width: 10rem;
   height: 10rem;
   border: 1px solid $primaryColor;
@@ -33,5 +33,15 @@
     top: 4rem;
     left: 1.3rem;
     transition: all 150ms ease;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .cursor {
+    display: none;
+  }
+
+  .viewCursor {
+    display: none;
   }
 }

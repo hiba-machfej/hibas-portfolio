@@ -78,19 +78,13 @@
     margin: 0;
   }
 
-  .developer {
-    display: flex;
-    align-items: baseline;
-    margin-bottom: 4rem;
-
-    h2 {
-      color: $primaryColor;
-      font-weight: 300;
-      font-style: italic;
-      font-size: 12rem;
-      align-self: flex-start;
-      margin: 2rem 0;
-    }
+  h2 {
+    color: $primaryColor;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 12rem;
+    align-self: flex-start;
+    margin: 4rem 0;
   }
 
   .hiba {
@@ -137,10 +131,10 @@
     font-family: $mainFontFamily;
     color: $secondaryColor;
     align-self: flex-end;
-    width: 30rem;
+    width: 32rem;
     position: absolute;
     right: 4rem;
-    margin-right: 3rem;
+    margin-right: 4rem;
     top: 43rem;
     text-align: justify;
     text-transform: uppercase;
@@ -187,7 +181,10 @@
 
     .developer {
       margin: 1rem 0;
+      flex-direction: column;
       justify-content: center;
+      align-items: center;
+      align-content: center;
 
       h2 {
         font-size: 3rem;
@@ -198,13 +195,21 @@
     .hiba,
     .hibaAnimation {
       width: 20rem;
-      margin-bottom: 23rem;
       animation: none;
+      opacity: 1;
     }
 
     .introduction {
+      width: 20rem;
+      position: relative;
+      align-self: center;
+      top: 0;
       margin: 0;
-      width: 15rem;
+      right: 0;
+    }
+
+    .scroll {
+      display: none;
     }
   }
 }
