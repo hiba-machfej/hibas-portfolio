@@ -1,6 +1,6 @@
 import React from "react";
-import { ReactComponent as LinkedinIcon } from "../../Images/Icons/linkedin.svg";
-import { ReactComponent as Github } from "../../Images/Icons/github.svg";
+import { ReactComponent as LinkedinIcon } from "../../Images/Icons/linkedinIcon.svg";
+import { ReactComponent as GithubIcon } from "../../Images/Icons/githubIcon.svg";
 import butterfly3 from "../../Images/butterfly3.png";
 import "./index.scss";
 
@@ -24,7 +24,7 @@ const Contact = () => {
           <LinkedinIcon />
         </a>
         <a href="https://github.com/hiba-machfej">
-          <Github />
+          <GithubIcon />
         </a>
       </div>
     </div>
