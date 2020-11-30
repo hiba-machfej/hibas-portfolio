@@ -6,7 +6,7 @@ import travelBoardProject from "../../Images/ProjectsImg/travelboard.jpg";
 import safePlaceProject from "../../Images/ProjectsImg/safeplace.jpg";
 import moviesHubProject from "../../Images/ProjectsImg/moviesHub.jpg";
 import butterfly2 from "../../Images/butterfly2.png";
-import { ReactComponent as Arrow } from "../../Images/Icons/arrow.svg";
+import { ReactComponent as ArrowIcon. } from "../../Images/Icons/arrowIcon..svg";
 import "./index.scss";
 
 const ProjectsList = ({ setCursorStyle }) => {
@@ -30,7 +30,7 @@ const ProjectsList = ({ setCursorStyle }) => {
               <h2>{project.name}</h2>
               <p>{project.shortDescription}</p>
               <a href={project.link} className="caseStudyBtn">
-                View case study <Arrow className="arrow" />
+                View case study <ArrowIcon className="arrowIcon" />
               </a>
             </div>
             <div className="imgDiv">
