@@ -10,7 +10,7 @@
   .links {
     margin-top: 0.5em;
     display: flex;
-    width: 12%;
+    width: 12rem;
     justify-content: space-between;
     a {
       font-family: $mainFontFamily;
@@ -55,9 +55,6 @@
 @include media-breakpoint-down(md) {
   .navbar {
     margin: 2rem;
-    .links {
-      width: 25%;
-    }
 
     .name {
       margin: 0;
@@ -72,7 +69,7 @@
     flex-direction: column;
 
     .links {
-      width: 100%;
+      width: 60%;
       align-self: center;
       margin-top: 2rem;
       justify-content: space-evenly;
