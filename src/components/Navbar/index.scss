@@ -34,6 +34,19 @@
   }
 }
 
+@include media-breakpoint-down(md) {
+  .navbar {
+    margin: 2rem;
+    .links {
+      width: 25%;
+    }
+
+    .name {
+      margin: 0;
+    }
+  }
+}
+
 @include media-breakpoint-down(sm) {
   .navbar {
     width: 100%;

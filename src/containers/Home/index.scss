@@ -6,7 +6,7 @@
   margin: 4rem;
 }
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(md) {
   .HomePage {
     width: 100%;
     margin: 0;

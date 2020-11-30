@@ -5,7 +5,7 @@ import madlibsProject from "../../images/projects/madlibs.jpg";
 import travelBoardProject from "../../images/projects/travelboard.jpg";
 import safePlaceProject from "../../images/projects/safeplace.jpg";
 import moviesHubProject from "../../images/projects/moviesHub.jpg";
-import {ReactComponent as Arrow} from "../../images/icons/Arrow.svg";
+import { ReactComponent as Arrow } from "../../images/icons/Arrow.svg";
 import "./index.scss";
 
 const ProjectsList = ({ setCursorStyle }) => {
@@ -28,7 +28,9 @@ const ProjectsList = ({ setCursorStyle }) => {
             >
               <h2>{project.name}</h2>
               <p>{project.shortDescription}</p>
-              <a href={project.link} className="caseStudyBtn">View case study <Arrow className="arrow"/></a>
+              <a href={project.link} className="caseStudyBtn">
+                View case study <Arrow className="arrow" />
+              </a>
             </div>
             <div className="imgDiv">
               <ProjectImg project={project} projectImgMap={projectImgMap} />
