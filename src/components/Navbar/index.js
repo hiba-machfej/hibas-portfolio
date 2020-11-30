@@ -1,6 +1,6 @@
 import React from "react";
-import "./index.scss";
 import { NavLink } from "react-router-dom";
+import "./index.scss";
 
 const Navbar = () => {
   return (
@@ -9,7 +9,7 @@ const Navbar = () => {
         <p>HIBA</p>
         <p className="lastName">MACHFEJ</p>
       </NavLink>
-      <div>
+      <div className="links">
         <NavLink to="section1">Projects</NavLink>
         <NavLink to="section1">About</NavLink>
       </div>

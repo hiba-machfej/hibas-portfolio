@@ -5,3 +5,10 @@
   width: 90vw;
   margin: 4rem;
 }
+
+@include media-breakpoint-down(sm) {
+  .HomePage {
+    width: 100%;
+    margin: 0;
+  }
+}

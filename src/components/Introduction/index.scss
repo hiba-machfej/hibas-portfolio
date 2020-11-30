@@ -78,12 +78,19 @@
     margin: 0;
   }
 
-  h3 {
-    color: $primaryColor;
-    font-weight: 300;
-    font-size: 10rem;
-    align-self: flex-end;
-    margin: 0;
+  .developer {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 4rem;
+
+    h2 {
+      color: $primaryColor;
+      font-weight: 300;
+      font-style: italic;
+      font-size: 12rem;
+      align-self: flex-start;
+      margin: 2rem 0;
+    }
   }
 
   .hiba {
@@ -92,7 +99,7 @@
     opacity: 0.4;
 
     &:hover {
-      opacity: .8;
+      opacity: 0.8;
     }
   }
 
@@ -122,22 +129,7 @@
       }
     }
     &:hover {
-      opacity: .8;
-    }
-  }
-
-  .developer {
-    display: flex;
-    align-items: baseline;
-    margin-bottom: 4rem;
-
-    h2 {
-      color: $primaryColor;
-      font-weight: 300;
-      font-style: italic;
-      font-size: 12rem;
-      align-self: flex-start;
-      margin: 2rem 0;
+      opacity: 0.8;
     }
   }
 
@@ -162,6 +154,57 @@
       color: $primaryColor;
       font-weight: 300;
       text-transform: none;
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .description {
+    width: 100%;
+    margin: 2rem 0;
+    justify-content: center;
+    text-align: center;
+
+    .aboutMe {
+      font-size: 1rem;
+      align-self: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin: 1rem 0;
+    }
+
+    .butterfly2 {
+      right: 18rem;
+      top: 1.5rem;
+    }
+
+    .butterfly1 {
+      margin-left: 16rem;
+      margin-top: -16rem;
+    }
+
+    .developer {
+      margin: 1rem 0;
+      justify-content: center;
+
+      h2 {
+        font-size: 3rem;
+        margin: 0;
+      }
+    }
+
+    .hiba,
+    .hibaAnimation {
+      width: 20rem;
+      margin-bottom: 23rem;
+      animation: none;
+    }
+
+    .introduction {
+      margin: 0;
+      width: 15rem;
     }
   }
 }

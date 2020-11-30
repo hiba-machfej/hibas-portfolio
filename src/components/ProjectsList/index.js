@@ -7,27 +7,32 @@ import moviesHubProject from "../../images/projects/moviesHub.jpg";
 import ProjectImg from "./projectImg.js";
 import "./index.scss";
 
-const ProjectsList = () => {
+const ProjectsList = ({ setCursorStyle }) => {
   const projectImgMap = {
     safePlaceImg: safePlaceProject,
     travelBoardImg: travelBoardProject,
     madlibsImg: madlibsProject,
-    moviesHubImg: moviesHubProject
+    moviesHubImg: moviesHubProject,
   };
 
   const projects = projectData.projects.map((project, index) => {
     return (
       <div className="project">
-        <div className={index % 2 === 0 ? "alignLeft" : "alignRight"}>
-          <div className="text">
-            <h2>{project.name}</h2>
-            <p>{project.shortDescription}</p>
-            <button>View Case Study</button>
+        <a href={project.link}>
+          <div className={index % 2 === 0 ? "alignLeft" : "alignRight"}>
+            <div
+              className="text"
+              onMouseOver={(e) => setCursorStyle("try")}
+              onMouseOut={(e) => setCursorStyle("cursor")}
+            >
+              <h2>{project.name}</h2>
+              <p>{project.shortDescription}</p>
+            </div>
+            <div className="imgDiv">
+              <ProjectImg project={project} projectImgMap={projectImgMap} />
+            </div>
           </div>
-          <div className="imgDiv">
-            <ProjectImg project={project} projectImgMap={projectImgMap} />
-          </div>
-        </div>
+        </a>
       </div>
     );
   });

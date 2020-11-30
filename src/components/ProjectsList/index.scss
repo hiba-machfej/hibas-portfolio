@@ -12,6 +12,20 @@
     margin-left: 2rem;
   }
 
+  a {
+    text-decoration: none;
+    color: $primaryColor;
+
+    &:active,
+    &:visited {
+      color: inherit;
+    }
+
+    &:focus {
+      outline-offset: none;
+    }
+  }
+
   .project {
     margin: 16rem 2rem;
 
@@ -20,12 +34,7 @@
       display: flex;
       align-items: center;
       justify-content: space-evenly;
-      &:hover {
-        background-color: #d09dae;
-        img {
-          opacity: 1;
-        }
-      }
+      flex-wrap: wrap;
     }
     .alignRight {
       height: 30rem;
@@ -33,43 +42,32 @@
       flex-direction: row-reverse;
       justify-content: space-evenly;
       align-items: center;
-      &:hover {
-        background-color: #d09dae;
-
-        img {
-          opacity: 1;
-        }
-      }
+      flex-wrap: wrap;
     }
 
     .text {
       width: 40rem;
+      padding: 8rem 5rem;
       height: auto;
       text-align: justify;
       display: flex;
       flex-direction: column;
 
       p {
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-family: $mainFontFamily;
+        color: $secondaryColor;
       }
 
       h2 {
         font-size: 5rem;
         margin: 0;
       }
-      button {
-        align-self: flex-end;
-        border: none;
-        background-color: transparent;
-        color: $primaryColor;
-        font-size: 1.5rem;
-      }
     }
-    img {
+    .card {
       width: 40rem;
       height: 25rem;
-      opacity: 0.6;
+      opacity: 0.8;
       object-fit: cover;
       z-index: 1;
       will-change: transform;
@@ -79,6 +77,43 @@
       &:hover {
         opacity: 1;
         box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .projects {
+    margin: 4rem 0;
+
+    h1 {
+      margin: 2rem 0;
+      position: relative;
+      font-size: 4rem;
+      text-align: center;
+      top: 1rem;
+    }
+
+    .project {
+      margin: 6rem 2rem;
+      height: 100%;
+
+      .text {
+        width: 40rem;
+        padding: 0;
+
+        p {
+          font-size: 1rem;
+        }
+
+        h2 {
+          text-align: center;
+          font-size: 2rem;
+        }
+      }
+      .card {
+        width: 20rem;
+        height: 15rem;
       }
     }
   }

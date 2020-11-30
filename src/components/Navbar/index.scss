@@ -6,6 +6,18 @@
   display: flex;
   justify-content: space-between;
   font-family: $secondaryFontFamily;
+
+  .links {
+    display: flex;
+    width: 12%;
+    justify-content: space-between;
+    a {
+      font-family: $mainFontFamily;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: $primaryColor;
+    }
+  }
   .name {
     margin: 0 2rem;
     text-decoration: none;
@@ -20,11 +32,19 @@
       transform: rotateX(180deg);
     }
   }
-  a {
-    margin-left: 4rem;
-    font-family: $mainFontFamily;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: $primaryColor;
+}
+
+@include media-breakpoint-down(sm) {
+  .navbar {
+    width: 100%;
+    margin: 2rem 0;
+    flex-direction: column;
+
+    .links {
+      width: 100%;
+      align-self: center;
+      margin-top: 2rem;
+      justify-content: space-evenly;
+    }
   }
 }
