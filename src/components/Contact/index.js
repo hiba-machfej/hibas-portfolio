@@ -2,6 +2,7 @@ import React from "react";
 import { ReactComponent as LinkedinIcon } from "../../Images/Icons/linkedinIcon.svg";
 import { ReactComponent as GithubIcon } from "../../Images/Icons/githubIcon.svg";
 import butterfly3 from "../../Images/butterfly3.png";
+import hibaResume from "../../Files/HibaResume.pdf";
 import "./index.scss";
 
 const Contact = () => {
@@ -20,12 +21,17 @@ const Contact = () => {
           to have the chance to prove it to you! So, shall we talk?
         </p>
         <a href="mailto: hiba.mashfij@gmail.com">hiba.mashfij@gmail.com</a>
+        <a href={hibaResume} target="_blank" rel="noreferrer">
+          Download Resume
+        </a>
+        <div className="outerLinks">
         <a href="https://www.linkedin.com/in/hiba-machfej-09400189/">
           <LinkedinIcon />
         </a>
         <a href="https://github.com/hiba-machfej">
           <GithubIcon />
         </a>
+        </div>
       </div>
     </div>
   );

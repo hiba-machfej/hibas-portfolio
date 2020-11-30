@@ -47,6 +47,7 @@
     width: 30rem;
 
     a {
+      margin-top: 1rem;
       align-self: flex-end;
       color: #f6f4f2;
       &:visited,
@@ -56,13 +57,17 @@
         outline: none;
       }
     }
-
-    svg {
-      width: 1.2rem;
-      height: 1.2rem;
-      margin-top: 1rem;
-      path {
-        fill: #f6f4f2;
+    .outerLinks {
+      display: flex;
+      align-self: flex-end;
+      width: 4rem;
+      justify-content: space-between;
+      svg {
+        width: 1.2rem;
+        height: 1.2rem;
+        path {
+          fill: #f6f4f2;
+        }
       }
     }
   }
@@ -99,6 +104,10 @@
 
       a {
         margin-top: 1rem;
+        align-self: center;
+      }
+
+      .outerLinks {
         align-self: center;
       }
     }
