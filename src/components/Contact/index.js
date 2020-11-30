@@ -25,12 +25,12 @@ const Contact = () => {
           Download Resume
         </a>
         <div className="outerLinks">
-        <a href="https://www.linkedin.com/in/hiba-machfej-09400189/">
-          <LinkedinIcon />
-        </a>
-        <a href="https://github.com/hiba-machfej">
-          <GithubIcon />
-        </a>
+          <a href="https://www.linkedin.com/in/hiba-machfej-09400189/">
+            <LinkedinIcon />
+          </a>
+          <a href="https://github.com/hiba-machfej">
+            <GithubIcon />
+          </a>
         </div>
       </div>
     </div>
