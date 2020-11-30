@@ -6,7 +6,7 @@ import travelBoardProject from "../../Images/ProjectsImg/travelboard.jpg";
 import safePlaceProject from "../../Images/ProjectsImg/safeplace.jpg";
 import moviesHubProject from "../../Images/ProjectsImg/moviesHub.jpg";
 import butterfly2 from "../../Images/butterfly2.png";
-import { ReactComponent as ArrowIcon. } from "../../Images/Icons/arrowIcon..svg";
+import { ReactComponent as ArrowIcon} from "../../Images/Icons/arrowIcon.svg";
 import "./index.scss";
 
 const ProjectsList = ({ setCursorStyle }) => {

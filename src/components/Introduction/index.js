@@ -6,7 +6,7 @@ import "./index.scss";
 
 const Introduction = () => {
   const [scrollPosition, setSrollPosition] = React.useState(0);
-  const [profileImg, setProfileImg] = React.useState(hiba);
+  const [profileImg, setProfileImg] = React.useState(profilePicture);
   const handleScroll = () => {
     const position = window.pageYOffset;
     setSrollPosition(position);
