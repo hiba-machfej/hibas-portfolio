@@ -1,6 +1,6 @@
 import React from "react";
-import hiba from "../../Images/hiba.jpg";
-import hibaPurble from "../../Images/hibaPurble.jpg";
+import profilePicture from "../../Images/profilePicture.jpg";
+import profilePictureEdit from "../../Images/profilePictureEdit.jpg";
 import butterflies1 from "../../Images/butterflies1.png";
 import "./index.scss";
 
@@ -35,8 +35,8 @@ const Introduction = () => {
       <p className="scroll"> Scroll to explore</p>
       <img
         src={profileImg}
-        onMouseOver={(e) => setProfileImg(hibaPurble)}
-        onMouseOut={(e) => setProfileImg(hiba)}
+        onMouseOver={(e) => setProfileImg(profilePictureEdit)}
+        onMouseOut={(e) => setProfileImg(profilePicture)}
         alt="Hiba Machfej"
         className={500 < scrollPosition ? "hibaAnimation" : "hiba"}
       />
