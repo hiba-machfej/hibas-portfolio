@@ -20,7 +20,7 @@ const ProjectsList = ({ setCursorStyle }) => {
   const projects = projectData.projects.map((project, index) => {
     return (
       <div className="project">
-        <a href={project.link}>
+        <a href={project.link} target="_blank" rel="noreferrer">
           <div className={index % 2 === 0 ? "alignLeft" : "alignRight"}>
             <div
               className="text"
