@@ -16,8 +16,8 @@
   .butterfly2 {
     position: absolute;
     width: 5rem;
-    top: 92rem;
-    left: 55%;
+    top: 90rem;
+    left: 60%;
     animation: transform 10s ease-in-out;
     z-index: 1;
 
@@ -61,14 +61,15 @@
       flex-wrap: wrap;
     }
 
-    .text {
+    .projectDescription {
       width: 40rem;
-      padding: 2rem;
       height: auto;
       text-align: justify;
       display: flex;
       flex-direction: column;
-
+      .text {
+        padding: 2rem 0;
+      }
       p {
         font-size: 1.2rem;
         font-family: $mainFontFamily;
@@ -79,9 +80,19 @@
         font-size: 5rem;
         margin: 0;
       }
-
-      .caseStudyBtn {
-        display: none;
+      .outerLinks {
+        width: 6rem;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 2rem;
+        svg {
+          width: 2rem;
+          height: 2rem;
+          fill: $primaryColor;
+          path {
+            fill: $primaryColor;
+          }
+        }
       }
     }
     .card {
@@ -104,7 +115,7 @@
 
 @include media-breakpoint-down(md) {
   .projects {
-    margin: 2rem 0;
+    margin: 4rem 0;
 
     h1 {
       margin: 6rem 2rem;
@@ -127,10 +138,13 @@
       align-items: space-evenly;
       align-content: space-evenly;
 
-      .text {
+      .projectDescription {
         width: 30rem;
         padding: 0;
         margin: 0;
+        .text {
+          padding: 0;
+        }
 
         p {
           font-size: 1rem;
@@ -140,18 +154,8 @@
           text-align: center;
           font-size: 2rem;
         }
-        .caseStudyBtn {
-          align-self: flex-end;
-          font-family: $mainFontFamily;
-          color: $primaryColor;
-          display: block;
-          margin-bottom: 1rem;
-
-          .arrowIcon {
-            width: 1rem;
-            position: relative;
-            top: 0.2rem;
-          }
+        .outerLinks {
+          align-self: center;
         }
       }
       .card {
@@ -167,14 +171,22 @@
 @include media-breakpoint-down(sm) {
   .projects {
     margin: 2rem;
+
     .butterfly2 {
       top: 70rem;
       left: 18rem;
     }
+
     .project {
-      .text {
+      .projectDescription {
         width: 20rem;
+        .outerLinks {
+          svg {
+            width: 1.5rem;
+          }
+        }
       }
+
       .card {
         width: 20rem;
         height: 12rem;

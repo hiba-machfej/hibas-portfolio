@@ -6,7 +6,8 @@ import travelBoardProject from "../../Images/ProjectsImg/travelboard.jpg";
 import safePlaceProject from "../../Images/ProjectsImg/safeplace.jpg";
 import moviesHubProject from "../../Images/ProjectsImg/moviesHub.jpg";
 import butterfly2 from "../../Images/butterfly2.png";
-import { ReactComponent as ArrowIcon } from "../../Images/Icons/arrowIcon.svg";
+import { ReactComponent as WindowIcon } from "../../Images/Icons/windowIcon.svg";
+import { ReactComponent as GithubIcon } from "../../Images/Icons/githubIcon.svg";
 import "./index.scss";
 
 const ProjectsList = ({ setCursorStyle }) => {
@@ -20,24 +21,33 @@ const ProjectsList = ({ setCursorStyle }) => {
   const projects = projectData.projects.map((project, index) => {
     return (
       <div className="project">
-        <a href={project.link} target="_blank" rel="noreferrer">
-          <div className={index % 2 === 0 ? "alignLeft" : "alignRight"}>
-            <div
-              className="text"
-              onMouseOver={(e) => setCursorStyle("viewCursor")}
-              onMouseOut={(e) => setCursorStyle("cursor")}
-            >
-              <h2>{project.name}</h2>
-              <p>{project.shortDescription}</p>
-              <a href={project.link} className="caseStudyBtn">
-                View case study <ArrowIcon className="arrowIcon" />
+        <div className={index % 2 === 0 ? "alignLeft" : "alignRight"}>
+          <div className="projectDescription">
+            <a href={project.link} target="_blank" rel="noreferrer">
+              <div
+                className="text"
+                onMouseOver={(e) => setCursorStyle("viewCursor")}
+                onMouseOut={(e) => setCursorStyle("cursor")}
+              >
+                <h2>{project.name}</h2>
+                <p>{project.shortDescription}</p>
+              </div>
+            </a>
+            <div className="outerLinks">
+              <a href={project.link} target="_blank" rel="noreferrer">
+                <WindowIcon />
+              </a>
+              <a href={project.githubLink} target="_blank" rel="noreferrer">
+                <GithubIcon />
               </a>
             </div>
-            <div className="imgDiv">
-              <ProjectImg project={project} projectImgMap={projectImgMap} />
-            </div>
           </div>
-        </a>
+          <div className="imgDiv">
+            <a href={project.link} target="_blank" rel="noreferrer">
+              <ProjectImg project={project} projectImgMap={projectImgMap} />
+            </a>
+          </div>
+        </div>
       </div>
     );
   });

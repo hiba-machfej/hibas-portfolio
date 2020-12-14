@@ -50,11 +50,23 @@ const Introduction = () => {
         </p>
 
         <p className="studies">
-          I have certificates from{" "}
-          <a href="https://www.re-coded.com/">Re:coded</a> and{" "}
-          <a href="https://flatironschool.com/">Flatiron</a>, the New York-based
-          coding school. I am continuing my Ph.D. in Urban planning. I have a
-          master's in Urban Design and a bachelor's degree in Architecture.
+          I have certificates from
+          <a href="https://www.re-coded.com/" target="_blank" rel="noreferrer">
+            {" "}
+            Re:coded{" "}
+          </a>{" "}
+          and
+          <a
+            href="https://flatironschool.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            Flatiron{" "}
+          </a>
+          , the New York-based coding school. I am continuing my Ph.D. in Urban
+          planning. I have a master's in Urban Design and a bachelor's degree in
+          Architecture.
           <br /> Well, I am always up for a challenge and I love learning new
           things. That's exactly why I chose to learn coding. I believe
           creativity is born from hybrid skills. So, I am quite excited to
