@@ -1,0 +1,33 @@
+@import "../../_StyleVariables";
+
+.projects {
+  color: $primaryColor;
+  h1 {
+    margin: 0 4rem;
+    position: absolute;
+    color: $primaryColor;
+    font-weight: 300;
+    font-size: 10rem;
+    top: 85rem;
+    text-align: center;
+  }
+
+  .butterfly2 {
+    position: absolute;
+    width: 5rem;
+    top: 90rem;
+    left: 60%;
+    animation: transform 10s ease-in-out;
+    z-index: 1;
+
+    &:hover {
+      transform: translate3d(10px, 10px, 10px);
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+}
+
+@include media-breakpoint-down(sm) {
+}

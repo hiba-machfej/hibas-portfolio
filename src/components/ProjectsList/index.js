@@ -5,7 +5,6 @@ import madlibsProject from "../../Images/ProjectsImg/madlibs.jpg";
 import travelBoardProject from "../../Images/ProjectsImg/travelboard.jpg";
 import safePlaceProject from "../../Images/ProjectsImg/safeplace.jpg";
 import moviesHubProject from "../../Images/ProjectsImg/moviesHub.jpg";
-import butterfly2 from "../../Images/butterfly2.png";
 import { ReactComponent as WindowIcon } from "../../Images/Icons/windowIcon.svg";
 import { ReactComponent as GithubIcon } from "../../Images/Icons/githubIcon.svg";
 import "./index.scss";
@@ -23,7 +22,7 @@ const ProjectsList = ({ setCursorStyle }) => {
       <div className="project">
         <div className={index % 2 === 0 ? "alignLeft" : "alignRight"}>
           <div className="projectDescription">
-            <a href={project.link} target="_blank" rel="noreferrer">
+            <a href={project.id}>
               <div
                 className="text"
                 onMouseOver={(e) => setCursorStyle("viewCursor")}
@@ -43,7 +42,7 @@ const ProjectsList = ({ setCursorStyle }) => {
             </div>
           </div>
           <div className="imgDiv">
-            <a href={project.link} target="_blank" rel="noreferrer">
+            <a href={project.id}>
               <ProjectImg project={project} projectImgMap={projectImgMap} />
             </a>
           </div>
@@ -54,8 +53,6 @@ const ProjectsList = ({ setCursorStyle }) => {
 
   return (
     <div className="projects" id="projects">
-      <h1>Recent Projects</h1>
-      <img src={butterfly2} alt="Butterfly" className="butterfly2" />
       {projects}
     </div>
   );
