@@ -9,7 +9,7 @@ import { ReactComponent as WindowIcon } from "../../Images/Icons/windowIcon.svg"
 import { ReactComponent as GithubIcon } from "../../Images/Icons/githubIcon.svg";
 import "./index.scss";
 
-const ProjectsList = ({ setCursorStyle }) => {
+const ProjectsList = ({ setCursorStyle, numToSlice }) => {
   const projectImgMap = {
     safePlaceImg: safePlaceProject,
     travelBoardImg: travelBoardProject,
@@ -17,7 +17,9 @@ const ProjectsList = ({ setCursorStyle }) => {
     moviesHubImg: moviesHubProject,
   };
 
-  const projects = projectData.projects.map((project, index) => {
+  const ProjectDataSlice = projectData.projects.slice(0, numToSlice);
+
+  const projects = ProjectDataSlice.map((project, index) => {
     return (
       <div className="project">
         <div className={index % 2 === 0 ? "alignLeft" : "alignRight"}>

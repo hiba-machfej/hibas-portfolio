@@ -23,7 +23,7 @@ function App() {
         <Route exact path="/portfolio">
           <Portfolio setCursorStyle={setCursorStyle} />
         </Route>
-        {projectData.projects.map((project, index) => (
+        {projectData.projects.map((project) => (
           <Route
             exact
             path={project.id}
