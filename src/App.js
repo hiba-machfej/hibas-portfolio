@@ -11,7 +11,6 @@ import Cursor from "./components/Cursor";
 
 function App() {
   const [cursorStyle, setCursorStyle] = React.useState("cursor");
-  console.log(projectData.projects.map((project) => console.log(project.id)));
   return (
     <Router>
       <Cursor cursorStyle={cursorStyle} />
@@ -26,7 +25,7 @@ function App() {
         {projectData.projects.map((project) => (
           <Route
             exact
-            path={project.id}
+            path={project.path}
             children={<SingleProject project={project} />}
           />
         ))}

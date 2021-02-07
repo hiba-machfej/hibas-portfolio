@@ -1,4 +1,12 @@
 {
+  "tags": [
+    "All",
+    "Website Development",
+    "UI/UX Design",
+    "Architecture",
+    "Urban Design",
+    "Research"
+  ],
   "projects": [
     {
       "link": "https://safe-place.netlify.app/",
@@ -6,7 +14,9 @@
       "name": "Safe Place",
       "shortDescription": "Full-Stack website to tackle the problem of domestic violence against women. From kick off to testing I Worked on it with a team of three. We used React, SCSS, HTML and bootstrap. We added google maps and Wordpress API. And, used Figma and Illustrator for the design and illustrations.",
       "mainImg": "safePlaceImg",
-      "id": "/safeplace"
+      "path": "/safeplace",
+      "tags": ["UI/UX Design", "Website Development", "All"],
+      "Img2": "moviesHubImg2"
     },
     {
       "link": "https://travelboard-khk.netlify.app/",
@@ -14,7 +24,9 @@
       "name": "Travel Board",
       "shortDescription": "A web-based Kanban-style for travel list-making. We utilized firebase for sorting database. React, React router, bootstrap and Ant design were used.",
       "mainImg": "travelBoardImg",
-      "id": "/travelboard"
+      "path": "/travelboard",
+      "tags": ["UI/UX Design", "Website Development", "All"],
+      "Img2": "moviesHubImg2"
     },
     {
       "link": "https://movieshubs.netlify.app/",
@@ -22,7 +34,9 @@
       "name": "Movies Hub",
       "shortDescription": "Online searchable source for movies information including ratings, cast and others. Used MovieDB API for fetching data and applied object-oriented programming with vanilla JS  ",
       "mainImg": "moviesHubImg",
-      "id": "/movieshub"
+      "path": "/movieshub",
+      "tags": ["UI/UX Design", "Website Development", "All"],
+      "Img2": "moviesHubImg2"
     },
     {
       "link": "https://madreamlibs.netlify.app/",
@@ -30,7 +44,20 @@
       "name": "MaDreamLibs",
       "shortDescription": "MaDreamLibs for Kids is a phrasal template word game that consists of one player prompting others for a list of words to substitute for blanks in a story before reading. The concept is to help the dreams of kids come true :D",
       "mainImg": "madlibsImg",
-      "id": "/madreamlibs"
+      "path": "/madreamlibs",
+      "tags": ["UI/UX Design", "Website Development", "All"],
+      "Img2": "madlibsImg2"
+    }
+    ,
+    {
+      "link": "no",
+      "githubLink": "https://github.com/hiba-machfej/ma-dream-libz",
+      "name": "MaDreamLibs",
+      "shortDescription": "MaDreamLibs for Kids is a phrasal template word game that consists of one player prompting others for a list of words to substitute for blanks in a story before reading. The concept is to help the dreams of kids come true :D",
+      "mainImg": "madlibsImg",
+      "path": "/madreamlibs",
+      "tags": ["UI/UX Design", "Website Development", "All"],
+      "Img2": "madlibsImg2"
     }
   ]
 }

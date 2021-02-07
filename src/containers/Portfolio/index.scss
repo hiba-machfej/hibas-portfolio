@@ -1,5 +1,46 @@
 @import "../../_StyleVariables";
 
-.HomePage {
+.workPage {
   font-family: $secondaryFontFamily;
+  .workWelcome {
+    margin: 8rem 0 2rem 0;
+    color: $primaryColor;
+    font-weight: 300;
+    font-size: 4rem;
+    text-align: center;
+  }
+  .workAbout {
+    color: $secondaryColor;
+    font-size: 1rem;
+    text-align: center;
+    font-family: $mainFontFamily;
+  }
+  .tags {
+    margin-top: 4rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    button {
+      margin: 0 .5rem;
+      font-family: $mainFontFamily;
+      color: $primaryColor;
+      border: none;
+      background-color: transparent!important;
+      font-size: 1rem;
+      font-weight: 300;
+
+      &:active {
+        background-color: none;
+      }
+
+      &:disabled {
+        color:  #7e5a6a;
+        text-decoration: underline;
+        font-weight: 400;
+      }
+    }
+
+    
+  }
 }

@@ -52,17 +52,15 @@ const Introduction = () => {
         <p className="studies">
           I have certificates from
           <a href="https://www.re-coded.com/" target="_blank" rel="noreferrer">
-            {" "}
-            Re:coded{" "}
-          </a>{" "}
+            Re:coded
+          </a>
           and
           <a
             href="https://flatironschool.com/"
             target="_blank"
             rel="noreferrer"
           >
-            {" "}
-            Flatiron{" "}
+            Flatiron
           </a>
           , the New York-based coding school. I am continuing my Ph.D. in Urban
           planning. I have a master's in Urban Design and a bachelor's degree in
