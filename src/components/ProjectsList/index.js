@@ -1,20 +1,22 @@
 import React from "react";
 // import projectData from "../../projectData.json";
 import ProjectImg from "./projectImg.js";
-import madlibsProject from "../../Images/ProjectsImg/madlibs.jpg";
-import travelBoardProject from "../../Images/ProjectsImg/travelboard.jpg";
-import safePlaceProject from "../../Images/ProjectsImg/safeplace.jpg";
-import moviesHubProject from "../../Images/ProjectsImg/moviesHub.jpg";
+import madlibsImg from "../../Images/ProjectsImg/madlibs.jpg";
+import travelBoardImg from "../../Images/ProjectsImg/travelboard.jpg";
+import safePlaceImg  from "../../Images/ProjectsImg/safeplace.jpg";
+import moviesHubImg  from "../../Images/ProjectsImg/moviesHub.jpg";
+import quakingAspenImg  from "../../Images/ProjectsImg/quakingAspen.jpg";
 import { ReactComponent as WindowIcon } from "../../Images/Icons/windowIcon.svg";
 import { ReactComponent as GithubIcon } from "../../Images/Icons/githubIcon.svg";
 import "./index.scss";
 
 const ProjectsList = ({ setCursorStyle, projectData }) => {
   const projectImgMap = {
-    safePlaceImg: safePlaceProject,
-    travelBoardImg: travelBoardProject,
-    madlibsImg: madlibsProject,
-    moviesHubImg: moviesHubProject,
+    safePlaceImg: safePlaceImg ,
+    travelBoardImg: travelBoardImg ,
+    madlibsImg: madlibsImg ,
+    moviesHubImg: moviesHubImg ,
+    quakingAspenImg: quakingAspenImg
   };
 
 
