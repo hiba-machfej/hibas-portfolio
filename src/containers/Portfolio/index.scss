@@ -20,9 +20,11 @@
     display: flex;
     text-align: center;
     justify-content: center;
+    flex-wrap: wrap;
+
 
     button {
-      margin: 0 .5rem;
+      margin: .2rem .1rem;
       font-family: $mainFontFamily;
       color: $primaryColor;
       border: none;
@@ -34,11 +36,21 @@
         background-color: none;
       }
 
+      &:hover {
+        background-color: none;
+        font-weight: 500;
+        color:  #7e5a6a;
+      }
+
       &:disabled {
         color:  #7e5a6a;
         text-decoration: underline;
         font-weight: 400;
       }
+      &:focus {
+        outline: none;
+      }
+
     }
 
     

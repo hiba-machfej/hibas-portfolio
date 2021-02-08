@@ -1,6 +1,6 @@
 @import "../../StyleVariables";
 
-.contact {
+#contact {
   padding: 12rem 5rem;
   position: relative;
   display: flex;
@@ -30,6 +30,7 @@
   }
 
   h1 {
+    font-family: $secondaryFontFamily;
     margin: 0;
     color: #f6f4f2;
     font-weight: 400;
@@ -74,7 +75,7 @@
 }
 
 @include media-breakpoint-down(md) {
-  .contact {
+  #contact {
     padding: 6rem 2rem;
     justify-content: center;
 

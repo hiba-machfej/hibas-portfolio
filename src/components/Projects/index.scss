@@ -26,28 +26,60 @@
   }
   .viewProjects {
     display: block;
-    margin:0 auto 10rem auto; 
+    margin: 0 auto 10rem auto;
     font-size: 2rem;
     text-align: center;
     color: $secondaryColor;
     text-decoration: none;
     font-weight: 300;
-    
 
-    &:hover, &:focus, &:active {
+    &:hover,
+    &:focus,
+    &:active {
       text-decoration: underline;
       color: $primaryColor;
     }
 
     &:visited {
-      text-decoration: none!important;
-    
+      text-decoration: none !important;
     }
   }
 }
 
 @include media-breakpoint-down(md) {
+  .projects {
+    h1 {
+      margin: 0 4rem;
+      position: static;
+      font-size: 10rem;
+
+      font-size: 3.3rem;
+      text-align: center;
+    }
+
+    .butterfly2 {
+      width: 4rem;
+      top: 80rem;
+      left: 35rem;
+    }
+
+    .viewProjects {
+      margin-top: 4rem;
+    }
+  }
 }
 
 @include media-breakpoint-down(sm) {
+
+  .projects {
+   
+    .butterfly2 {
+      top: 70rem;
+      left: 18rem;
+    }
+
+   
+  }
+ 
+
 }

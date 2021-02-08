@@ -91,7 +91,7 @@
 }
 
 @include media-breakpoint-down(md) {
-  .projects {
+  .projectsList {
     .project {
       margin: 4rem 2rem;
       height: 100%;
@@ -102,7 +102,7 @@
       .projectDescription {
         width: 30rem;
         padding: 0;
-        margin: 2rem;
+        // margin: 2rem;
         .text {
           padding: 0;
         }
@@ -130,14 +130,14 @@
 }
 
 @include media-breakpoint-down(sm) {
-  .projects {
+  .projectsList {
     .project {
-      margin: 4rem;
+      // margin: 4rem;
       .projectDescription {
         .text {
           padding: 0;
         }
-        width: 20rem;
+        // width: 20rem;
         .outerLinks {
           svg {
             width: 1.5rem;
