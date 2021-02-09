@@ -8,7 +8,6 @@ import tablet from "../../Images/tablet.png";
 import "./index.scss";
 
 const SingleProject = ({ project }) => {
-
   const projectImg = {
     safePlaceImg: safePlaceImg,
     travelBoardImg: travelBoardImg,
@@ -20,16 +19,24 @@ const SingleProject = ({ project }) => {
   return (
     <div className="singleProject">
       <div className="partOne">
-        <div>
-          <h1 className="workWelcome">{project.name}</h1>
-          <p className="workAbout">
-          {project.shortDescription}
-          </p>
-        </div>
         <div className="mainImgBlock">
           <img src={tablet} alt="" className="tablet" />
+
           <img src={projectImg[project.mainImg]} alt="" className="mainImg" />
         </div>
+        <div className="partOneText">
+          <h1 className="workWelcome">{project.name}</h1>
+          <p className="workAbout">{project.shortDescription}</p>
+          <h4>Used Technologies</h4>
+          <p className="technologies">
+            {project.technologies.map((tech) => {
+              return <button>{tech} </button>;
+            })}
+          </p>
+        </div>
+      </div>
+      <div className="partTwo">
+        <img src={projectImg[project.img2]} alt="" className="img2" />
       </div>
     </div>
   );

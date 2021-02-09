@@ -1,52 +1,115 @@
 @import "../../_StyleVariables";
 
-
 .singleProject {
-  margin:6rem;
+  margin: 6rem;
+  font-family: $mainFontFamily;
+
   .partOne {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
- }
-  // .mainImgBlock {
-   
-    .tablet {
-     
-      position: relative;
-      width: 40rem;
-      height: auto;
-      z-index: 1;
-      opacity: .4;
-    }
-    .mainImg {
-      width: 38rem;
-      height: 27rem;
-      position: absolute;
-      object-fit: cover;
-      right: 7rem;
-      margin-top:1rem;
-     
-
-    }
+    align-content: center;
+    align-items: center;
+  }
+  h4 {
+    color: $primaryColor;
+  }
+  .partOneText {
+    width: 50%;
+    margin-left: 2rem;
+  }
+  .tablet {
+    position: relative;
+    width: 40rem;
+    height: auto;
+    z-index: 1;
+  }
+  .mainImg {
+    width: 38rem;
+    height: 27rem;
+    position: absolute;
+    object-fit: cover;
+    left: 7rem;
+    margin-top: 1.2rem;
+  }
 
   .workWelcome {
     color: $primaryColor;
     font-weight: 300;
     font-size: 4rem;
-
   }
   .workAbout {
     color: $secondaryColor;
     font-size: 1rem;
-   margin-right:4rem;
 
     font-family: $mainFontFamily;
+  }
+  .img2 {
+    width: 95%;
+  }
+  .technologies {
+    font-size: 1rem;
+    font-weight: 300;
+
+    button {
+      font-family: $mainFontFamily;
+      color: $primaryColor;
+      border: none;
+      background-color: transparent !important;
+      padding-left: 0 !important;
+      padding-right: 1.5rem;
+
+      &:active {
+        background-color: none;
+      }
+
+      &:hover {
+        background-color: none;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
   }
 }
 
 @include media-breakpoint-down(md) {
-  .projects {
+  .singleProject {
+    margin: 2rem;
+
+    .partOne {
+      justify-content: center;
+    }
+
+    .partOneText {
+      width: 90%;
+      margin-left: 0;
+    }
+    .tablet {
+      width: 26rem;
+    }
+    .mainImg {
+      width: 25rem;
+      height: 17.5rem;
+
+      left: 11.6rem;
+      margin-top: 0.7rem;
+    }
   }
 }
 
 @include media-breakpoint-down(sm) {
+  .singleProject {
+    .tablet {
+      width: 18rem;
+    }
+    .mainImg {
+      width: 17.5rem;
+      height: 12.3rem;
+
+      left: 3rem;
+      margin-top: 0.2rem;
+    }
+  }
 }

@@ -16,7 +16,8 @@
       "mainImg": "safePlaceImg",
       "path": "/safeplace",
       "tags": ["UI/UX Design", "Website Development", "All"],
-      "Img2": "moviesHubImg2"
+      "img2": "moviesHubImg2",
+      "technologies":["HTML", "SCSS", "JavaScript", "React", "Figma", "Wordpress API", "Firebase", "I18next", "Jest testing"]
     },
     {
       "link": "https://travelboard-khk.netlify.app/",
@@ -26,7 +27,8 @@
       "mainImg": "travelBoardImg",
       "path": "/travelboard",
       "tags": ["UI/UX Design", "Website Development", "All"],
-      "Img2": "moviesHubImg2"
+      "img2": "moviesHubImg2",
+      "technologies":["HTML", "SCSS", "JavaScript", "React", "Figma", "Wordpress API", "Firebase", "I18next", "Jest testing"]
     },
     {
       "link": "https://movieshubs.netlify.app/",
@@ -36,7 +38,8 @@
       "mainImg": "moviesHubImg",
       "path": "/movieshub",
       "tags": ["UI/UX Design", "Website Development", "All"],
-      "Img2": "moviesHubImg2"
+      "img2": "moviesHubImg2",
+      "technologies":["HTML", "SCSS", "JavaScript", "React", "Figma", "Wordpress API", "Firebase", "I18next", "Jest testing"]
     },
     {
       "link": "https://madreamlibs.netlify.app/",
@@ -46,18 +49,20 @@
       "mainImg": "madlibsImg",
       "path": "/madreamlibs",
       "tags": ["UI/UX Design", "Website Development", "All"],
-      "Img2": "madlibsImg2"
+      "img2": "madlibsImg2",
+      "technologies":["HTML", "SCSS", "JavaScript", "React", "Figma", "Wordpress API", "Firebase", "I18next", "Jest testing"]
     }
     ,
     {
       "link": "no",
       "githubLink": "no",
       "name": "Quaking Aspen",
-      "shortDescription": "",
+      "shortDescription": "sdfdsfdsfdsfsdfsdfdsf",
       "mainImg": "quakingAspenImg",
       "path": "/quacking-aspen",
       "tags": ["UI/UX Design", "All"],
-      "Img2": "madlibsImg2"
+      "img2": "quakingAspenImg2",
+      "technologies":["HTML", "SCSS", "JavaScript", "React", "Figma", "Wordpress API", "Firebase", "I18next", "Jest testing"]
     }
   ]
 }
