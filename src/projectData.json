@@ -2,10 +2,7 @@
   "tags": [
     "All",
     "Website Development",
-    "UI/UX Design",
-    "3d models",
-    "Urban Design",
-    "Research"
+    "UI/UX Design"
   ],
   "projects": [
     {
@@ -54,14 +51,26 @@
     }
     ,
     {
-      "link": "no",
+      "link": "https://quakingaspen.net/",
       "githubLink": "no",
       "name": "Quaking Aspen",
-      "shortDescription": "sdfdsfdsfdsfsdfsdfdsf",
+      "shortDescription": "Quaking aspen is a UK based client which I worked with a team of designers and programmers to deliver brand-identity and UI/UX of the project. ",
       "mainImg": "quakingAspenImg",
       "path": "/quacking-aspen",
       "tags": ["UI/UX Design", "All"],
       "img2": "quakingAspenImg2",
+      "technologies":["HTML", "SCSS", "JavaScript", "React", "Figma", "Wordpress API", "Firebase", "I18next", "Jest testing"]
+    }
+    ,
+    {
+      "link": "https://www.sealr.app/",
+      "githubLink": "no",
+      "name": "Sealr",
+      "shortDescription": "Quaking aspen is a UK based client which I worked with a team of designers and programmers to deliver brand-identity and UI/UX of the project. ",
+      "mainImg": "sealrImg",
+      "path": "/sealr",
+      "tags": ["UI/UX Design", "All"],
+      "img2": "sealrImg2",
       "technologies":["HTML", "SCSS", "JavaScript", "React", "Figma", "Wordpress API", "Firebase", "I18next", "Jest testing"]
     }
   ]

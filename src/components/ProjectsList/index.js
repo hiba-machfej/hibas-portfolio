@@ -5,6 +5,7 @@ import madlibsImg from "../../Images/ProjectsImg/madlibs.jpg";
 import travelBoardImg from "../../Images/ProjectsImg/travelboard.jpg";
 import safePlaceImg  from "../../Images/ProjectsImg/safeplace.jpg";
 import moviesHubImg  from "../../Images/ProjectsImg/moviesHub.jpg";
+import sealrImg from "../../Images/ProjectsImg/sealr.jpg";
 import quakingAspenImg  from "../../Images/ProjectsImg/quakingAspen.jpg";
 import { ReactComponent as WindowIcon } from "../../Images/Icons/windowIcon.svg";
 import { ReactComponent as GithubIcon } from "../../Images/Icons/githubIcon.svg";
@@ -16,7 +17,8 @@ const ProjectsList = ({ setCursorStyle, projectData }) => {
     travelBoardImg: travelBoardImg ,
     madlibsImg: madlibsImg ,
     moviesHubImg: moviesHubImg ,
-    quakingAspenImg: quakingAspenImg
+    quakingAspenImg: quakingAspenImg,
+    sealrImg:sealrImg
   };
 
 
@@ -37,7 +39,7 @@ const ProjectsList = ({ setCursorStyle, projectData }) => {
             </a>
             <div className="outerLinks">
              {project.link !== "no" ?  <a href={project.link} target="_blank" rel="noreferrer"> <WindowIcon />  </a>   : ""}
-             {project.link !== "no" ?  <a href={project.githubLink} target="_blank" rel="noreferrer"> <GithubIcon /> </a>  : ""}
+             {project.githubLink !== "no" ?  <a href={project.githubLink} target="_blank" rel="noreferrer"> <GithubIcon /> </a>  : ""}
             </div>
           </div>
           <div className="imgDiv">

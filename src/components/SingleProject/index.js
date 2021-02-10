@@ -4,7 +4,7 @@ import travelBoardImg from "../../Images/ProjectsImg/travelboard.jpg";
 import safePlaceImg from "../../Images/ProjectsImg/safeplace.jpg";
 import moviesHubImg from "../../Images/ProjectsImg/moviesHub.jpg";
 import quakingAspenImg from "../../Images/ProjectsImg/quakingAspen.jpg";
-import tablet from "../../Images/tablet.png";
+import sealrImg from "../../Images/ProjectsImg/sealr.jpg";
 import "./index.scss";
 
 const SingleProject = ({ project }) => {
@@ -14,14 +14,13 @@ const SingleProject = ({ project }) => {
     madlibsImg: madlibsImg,
     moviesHubImg: moviesHubImg,
     quakingAspenImg: quakingAspenImg,
+    sealrImg:sealrImg
   };
 
   return (
     <div className="singleProject">
       <div className="partOne">
         <div className="mainImgBlock">
-          <img src={tablet} alt="" className="tablet" />
-
           <img src={projectImg[project.mainImg]} alt="" className="mainImg" />
         </div>
         <div className="partOneText">
@@ -33,6 +32,10 @@ const SingleProject = ({ project }) => {
               return <button>{tech} </button>;
             })}
           </p>
+          <div className="outerLinks">
+             {project.link !== "no" ?  <a href={project.link} target="_blank" rel="noreferrer"> Live Demo  </a>   : ""}
+             {project.githubLink !== "no" ?  <a href={project.githubLink} target="_blank" rel="noreferrer"> Check the code </a>  : ""}
+            </div>
         </div>
       </div>
       <div className="partTwo">
