@@ -11,7 +11,7 @@ const Portfolio = ({ setCursorStyle }) => {
   return (
     <div className="workPage">
       <h1 className="workWelcome">Welcome to my Portfolio!</h1>
-      <p className="workAbout">I am Multi-Potentialite*, I am curios about many things, </p>
+      {/* <p className="workAbout">I am Multi-Potentialite*, I am curios about many things, </p> */}
       <div className="tags">
         {projectData.tags.map((tag) => {
           return (

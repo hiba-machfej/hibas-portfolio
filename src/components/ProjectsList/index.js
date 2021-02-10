@@ -7,6 +7,7 @@ import safePlaceImg  from "../../Images/ProjectsImg/safeplace.jpg";
 import moviesHubImg  from "../../Images/ProjectsImg/moviesHub.jpg";
 import sealrImg from "../../Images/ProjectsImg/sealr.jpg";
 import quakingAspenImg  from "../../Images/ProjectsImg/quakingAspen.jpg";
+import changeMakersImg from "../../Images/ProjectsImg/changemakers.jpg";
 import { ReactComponent as WindowIcon } from "../../Images/Icons/windowIcon.svg";
 import { ReactComponent as GithubIcon } from "../../Images/Icons/githubIcon.svg";
 import "./index.scss";
@@ -18,7 +19,8 @@ const ProjectsList = ({ setCursorStyle, projectData }) => {
     madlibsImg: madlibsImg ,
     moviesHubImg: moviesHubImg ,
     quakingAspenImg: quakingAspenImg,
-    sealrImg:sealrImg
+    sealrImg:sealrImg,
+    changeMakersImg:changeMakersImg
   };
 
 

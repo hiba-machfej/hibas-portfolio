@@ -25,7 +25,7 @@
       "path": "/travelboard",
       "tags": ["UI/UX Design", "Website Development", "All"],
       "img2": "moviesHubImg2",
-      "technologies":["HTML", "SCSS", "JavaScript", "React", "Figma", "Wordpress API", "Firebase", "I18next", "Jest testing"]
+      "technologies":["HTML", "CSS", "JavaScript", "React", "Figma", "Firebase", "Bootstrap"]
     },
     {
       "link": "https://movieshubs.netlify.app/",
@@ -36,7 +36,19 @@
       "path": "/movieshub",
       "tags": ["UI/UX Design", "Website Development", "All"],
       "img2": "moviesHubImg2",
-      "technologies":["HTML", "SCSS", "JavaScript", "React", "Figma", "Wordpress API", "Firebase", "I18next", "Jest testing"]
+      "technologies":["HTML", "CSS", "JavaScript", "Postman"]
+    },
+     
+    {
+      "link": "https://quakingaspen.net/",
+      "githubLink": "no",
+      "name": "Quaking Aspen",
+      "shortDescription": "Quaking aspen is a UK based client which I worked with a team of designers and programmers to deliver brand-identity and UI/UX of the project. ",
+      "mainImg": "quakingAspenImg",
+      "path": "/quacking-aspen",
+      "tags": ["UI/UX Design", "All"],
+      "img2": "quakingAspenImg2",
+      "technologies":["HTML", "CSS", "JavaScript", "Vue", "Adobe XD"]
     },
     {
       "link": "https://madreamlibs.netlify.app/",
@@ -47,31 +59,32 @@
       "path": "/madreamlibs",
       "tags": ["UI/UX Design", "Website Development", "All"],
       "img2": "madlibsImg2",
-      "technologies":["HTML", "SCSS", "JavaScript", "React", "Figma", "Wordpress API", "Firebase", "I18next", "Jest testing"]
+      "technologies":["HTML", "CSS", "JavaScript"]
     }
-    ,
-    {
-      "link": "https://quakingaspen.net/",
-      "githubLink": "no",
-      "name": "Quaking Aspen",
-      "shortDescription": "Quaking aspen is a UK based client which I worked with a team of designers and programmers to deliver brand-identity and UI/UX of the project. ",
-      "mainImg": "quakingAspenImg",
-      "path": "/quacking-aspen",
-      "tags": ["UI/UX Design", "All"],
-      "img2": "quakingAspenImg2",
-      "technologies":["HTML", "SCSS", "JavaScript", "React", "Figma", "Wordpress API", "Firebase", "I18next", "Jest testing"]
-    }
+  
     ,
     {
       "link": "https://www.sealr.app/",
       "githubLink": "no",
       "name": "Sealr",
-      "shortDescription": "Quaking aspen is a UK based client which I worked with a team of designers and programmers to deliver brand-identity and UI/UX of the project. ",
+      "shortDescription": "In the design of Sealr website, we worked on delivering a complex message simply.",
       "mainImg": "sealrImg",
       "path": "/sealr",
       "tags": ["UI/UX Design", "All"],
       "img2": "sealrImg2",
-      "technologies":["HTML", "SCSS", "JavaScript", "React", "Figma", "Wordpress API", "Firebase", "I18next", "Jest testing"]
+      "technologies":["HTML", "CSS", "JavaScript", "Vue", "Adobe XD"]
+    },
+    
+    {
+      "link": "no",
+      "githubLink": "no",
+      "name": "Change Makers",
+      "shortDescription": "",
+      "mainImg": "changeMakersImg",
+      "path": "/changemakers",
+      "tags": ["UI/UX Design", "All"],
+      "img2": "changeMakersImg2",
+      "technologies":["Figma", "Adobe Illustrator"]
     }
   ]
 }

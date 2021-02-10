@@ -5,6 +5,7 @@ import safePlaceImg from "../../Images/ProjectsImg/safeplace.jpg";
 import moviesHubImg from "../../Images/ProjectsImg/moviesHub.jpg";
 import quakingAspenImg from "../../Images/ProjectsImg/quakingAspen.jpg";
 import sealrImg from "../../Images/ProjectsImg/sealr.jpg";
+import changeMakersImg from "../../Images/ProjectsImg/changemakers.jpg";
 import "./index.scss";
 
 const SingleProject = ({ project }) => {
@@ -14,7 +15,8 @@ const SingleProject = ({ project }) => {
     madlibsImg: madlibsImg,
     moviesHubImg: moviesHubImg,
     quakingAspenImg: quakingAspenImg,
-    sealrImg:sealrImg
+    sealrImg:sealrImg,
+    changeMakersImg:changeMakersImg
   };
 
   return (
