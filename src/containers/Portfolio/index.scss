@@ -22,13 +22,12 @@
     justify-content: center;
     flex-wrap: wrap;
 
-
     button {
-      margin: .2rem .1rem;
+      margin: 0.2rem 0.1rem;
       font-family: $mainFontFamily;
       color: $primaryColor;
       border: none;
-      background-color: transparent!important;
+      background-color: transparent !important;
       font-size: 1rem;
       font-weight: 300;
 
@@ -39,20 +38,17 @@
       &:hover {
         background-color: none;
         font-weight: 500;
-        color:  #7e5a6a;
+        color: #7e5a6a;
       }
 
       &:disabled {
-        color:  #7e5a6a;
+        color: #7e5a6a;
         text-decoration: underline;
         font-weight: 400;
       }
       &:focus {
         outline: none;
       }
-
     }
-
-    
   }
 }

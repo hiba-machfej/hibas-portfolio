@@ -1,9 +1,5 @@
 {
-  "tags": [
-    "All",
-    "Website Development",
-    "UI/UX Design"
-  ],
+  "tags": ["All", "Website Development", "UI/UX Design"],
   "projects": [
     {
       "link": "https://safe-place.netlify.app/",
@@ -14,7 +10,17 @@
       "path": "/safeplace",
       "tags": ["UI/UX Design", "Website Development", "All"],
       "img2": "moviesHubImg2",
-      "technologies":["HTML", "SCSS", "JavaScript", "React", "Figma", "Wordpress API", "Firebase", "I18next", "Jest testing"]
+      "technologies": [
+        "HTML",
+        "SCSS",
+        "JavaScript",
+        "React",
+        "Figma",
+        "Wordpress API",
+        "Firebase",
+        "I18next",
+        "Jest testing"
+      ]
     },
     {
       "link": "https://travelboard-khk.netlify.app/",
@@ -25,7 +31,15 @@
       "path": "/travelboard",
       "tags": ["UI/UX Design", "Website Development", "All"],
       "img2": "moviesHubImg2",
-      "technologies":["HTML", "CSS", "JavaScript", "React", "Figma", "Firebase", "Bootstrap"]
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Figma",
+        "Firebase",
+        "Bootstrap"
+      ]
     },
     {
       "link": "https://movieshubs.netlify.app/",
@@ -36,9 +50,9 @@
       "path": "/movieshub",
       "tags": ["UI/UX Design", "Website Development", "All"],
       "img2": "moviesHubImg2",
-      "technologies":["HTML", "CSS", "JavaScript", "Postman"]
+      "technologies": ["HTML", "CSS", "JavaScript", "Postman"]
     },
-     
+
     {
       "link": "https://quakingaspen.net/",
       "githubLink": "no",
@@ -48,7 +62,7 @@
       "path": "/quacking-aspen",
       "tags": ["UI/UX Design", "All"],
       "img2": "quakingAspenImg2",
-      "technologies":["HTML", "CSS", "JavaScript", "Vue", "Adobe XD"]
+      "technologies": ["HTML", "CSS", "JavaScript", "Vue", "Adobe XD"]
     },
     {
       "link": "https://madreamlibs.netlify.app/",
@@ -59,10 +73,9 @@
       "path": "/madreamlibs",
       "tags": ["UI/UX Design", "Website Development", "All"],
       "img2": "madlibsImg2",
-      "technologies":["HTML", "CSS", "JavaScript"]
-    }
-  
-    ,
+      "technologies": ["HTML", "CSS", "JavaScript"]
+    },
+
     {
       "link": "https://www.sealr.app/",
       "githubLink": "no",
@@ -72,9 +85,9 @@
       "path": "/sealr",
       "tags": ["UI/UX Design", "All"],
       "img2": "sealrImg2",
-      "technologies":["HTML", "CSS", "JavaScript", "Vue", "Adobe XD"]
+      "technologies": ["HTML", "CSS", "JavaScript", "Vue", "Adobe XD"]
     },
-    
+
     {
       "link": "no",
       "githubLink": "no",
@@ -84,7 +97,7 @@
       "path": "/changemakers",
       "tags": ["UI/UX Design", "All"],
       "img2": "changeMakersImg2",
-      "technologies":["Figma", "Adobe Illustrator"]
+      "technologies": ["Figma", "Adobe Illustrator"]
     }
   ]
 }

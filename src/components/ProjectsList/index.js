@@ -3,10 +3,10 @@ import React from "react";
 import ProjectImg from "./projectImg.js";
 import madlibsImg from "../../Images/ProjectsImg/madlibs.jpg";
 import travelBoardImg from "../../Images/ProjectsImg/travelboard.jpg";
-import safePlaceImg  from "../../Images/ProjectsImg/safeplace.jpg";
-import moviesHubImg  from "../../Images/ProjectsImg/moviesHub.jpg";
+import safePlaceImg from "../../Images/ProjectsImg/safeplace.jpg";
+import moviesHubImg from "../../Images/ProjectsImg/moviesHub.jpg";
 import sealrImg from "../../Images/ProjectsImg/sealr.jpg";
-import quakingAspenImg  from "../../Images/ProjectsImg/quakingAspen.jpg";
+import quakingAspenImg from "../../Images/ProjectsImg/quakingAspen.jpg";
 import changeMakersImg from "../../Images/ProjectsImg/changemakers.jpg";
 import { ReactComponent as WindowIcon } from "../../Images/Icons/windowIcon.svg";
 import { ReactComponent as GithubIcon } from "../../Images/Icons/githubIcon.svg";
@@ -14,15 +14,14 @@ import "./index.scss";
 
 const ProjectsList = ({ setCursorStyle, projectData }) => {
   const projectImgMap = {
-    safePlaceImg: safePlaceImg ,
-    travelBoardImg: travelBoardImg ,
-    madlibsImg: madlibsImg ,
-    moviesHubImg: moviesHubImg ,
+    safePlaceImg: safePlaceImg,
+    travelBoardImg: travelBoardImg,
+    madlibsImg: madlibsImg,
+    moviesHubImg: moviesHubImg,
     quakingAspenImg: quakingAspenImg,
-    sealrImg:sealrImg,
-    changeMakersImg:changeMakersImg
+    sealrImg: sealrImg,
+    changeMakersImg: changeMakersImg,
   };
-
 
   const projects = projectData.map((project, index) => {
     return (
@@ -40,8 +39,22 @@ const ProjectsList = ({ setCursorStyle, projectData }) => {
               </div>
             </a>
             <div className="outerLinks">
-             {project.link !== "no" ?  <a href={project.link} target="_blank" rel="noreferrer"> <WindowIcon />  </a>   : ""}
-             {project.githubLink !== "no" ?  <a href={project.githubLink} target="_blank" rel="noreferrer"> <GithubIcon /> </a>  : ""}
+              {project.link !== "no" ? (
+                <a href={project.link} target="_blank" rel="noreferrer">
+                  {" "}
+                  <WindowIcon />{" "}
+                </a>
+              ) : (
+                ""
+              )}
+              {project.githubLink !== "no" ? (
+                <a href={project.githubLink} target="_blank" rel="noreferrer">
+                  {" "}
+                  <GithubIcon />{" "}
+                </a>
+              ) : (
+                ""
+              )}
             </div>
           </div>
           <div className="imgDiv">

@@ -41,27 +41,20 @@
   }
 
   .outerLinks {
-    width: 12rem;
-    display: flex;
-    justify-content: space-between;
-    font-family: $mainFontFamily;
-    margin-top: 2rem;
-    a {
-      color: $secondaryColor;
-      text-decoration: none;
-
-      &:hover,
-      &:focus,
-      &:active {
-        text-decoration: underline;
-        color: $primaryColor;
+        width: 6rem;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 2rem;
+        svg {
+          width: 2rem;
+          height: 2rem;
+          fill: $primaryColor;
+          path {
+            fill: $primaryColor;
+          }
+        }
       }
-
-      &:visited {
-        text-decoration: none !important;
-      }
-    }
-  }
+    
   .technologies {
     font-size: 1rem;
     font-weight: 300;
@@ -113,4 +106,10 @@
     width: 20rem;
     height: 12rem;
   }
+  .outerLinks {
+          svg {
+            width: 1.5rem;
+          }
+        }
+      
 }

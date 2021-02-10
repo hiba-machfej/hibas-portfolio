@@ -14,7 +14,9 @@ const Projects = ({ setCursorStyle }) => {
         setCursorStyle={setCursorStyle}
         projectData={ProjectDataSlice}
       />
-      <a href="/portfolio" className="viewProjects">View all Projects</a>
+      <a href="/portfolio" className="viewProjects">
+        View all Projects
+      </a>
     </div>
   );
 };
