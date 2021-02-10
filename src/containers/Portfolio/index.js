@@ -26,7 +26,7 @@ const Portfolio = ({ setCursorStyle }) => {
               }}
               disabled={tag === selectedButtonIndex}
             >
-              {tag}{" "}
+              {tag}
             </button>
           );
         })}

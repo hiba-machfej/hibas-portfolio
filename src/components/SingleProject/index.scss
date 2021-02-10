@@ -11,12 +11,18 @@
     align-content: center;
     align-items: center;
   }
+  h1 {
+    margin-bottom:.8rem;
+  }
   h4 {
     color: $primaryColor;
+    margin: 0;
   }
   .partOneText {
     width: 50%;
     margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
   }
 
   .mainImg {
@@ -41,20 +47,19 @@
   }
 
   .outerLinks {
-        width: 6rem;
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 2rem;
-        svg {
-          width: 2rem;
-          height: 2rem;
-          fill: $primaryColor;
-          path {
-            fill: $primaryColor;
-          }
-        }
+    width: 6rem;
+    display: flex;
+    justify-content: space-between;
+    svg {
+      width: 2rem;
+      height: 2rem;
+      fill: $primaryColor;
+      path {
+        fill: $primaryColor;
       }
-    
+    }
+  }
+
   .technologies {
     font-size: 1rem;
     font-weight: 300;
@@ -93,6 +98,7 @@
     .partOneText {
       width: 90%;
       margin-left: 0;
+      text-align: center;
     }
     .mainImg {
       width: 30rem;
@@ -102,14 +108,17 @@
 }
 
 @include media-breakpoint-down(sm) {
-  .mainImg {
-    width: 18rem;
-    height: 10rem;
+  .singleProject {
+    .mainImg {
+      width: 15rem;
+      height: 9rem;
+    }
+
+    .outerLinks {
+      align-self: center;
+      svg {
+        width: 1.5rem;
+      }
+    }
   }
-  .outerLinks {
-          svg {
-            width: 1.5rem;
-          }
-        }
-      
 }

@@ -41,16 +41,16 @@ const ProjectsList = ({ setCursorStyle, projectData }) => {
             <div className="outerLinks">
               {project.link !== "no" ? (
                 <a href={project.link} target="_blank" rel="noreferrer">
-                  {" "}
-                  <WindowIcon />{" "}
+                  
+                  <WindowIcon />
                 </a>
               ) : (
                 ""
               )}
               {project.githubLink !== "no" ? (
                 <a href={project.githubLink} target="_blank" rel="noreferrer">
-                  {" "}
-                  <GithubIcon />{" "}
+                  
+                  <GithubIcon />
                 </a>
               ) : (
                 ""
