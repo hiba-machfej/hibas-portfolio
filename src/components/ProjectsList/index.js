@@ -5,9 +5,11 @@ import madlibsImg from "../../Images/ProjectsImg/madlibs.jpg";
 import travelBoardImg from "../../Images/ProjectsImg/travelboard.jpg";
 import safePlaceImg from "../../Images/ProjectsImg/safeplace.jpg";
 import moviesHubImg from "../../Images/ProjectsImg/moviesHub.jpg";
-import sealrImg from "../../Images/ProjectsImg/sealr.jpg";
 import quakingAspenImg from "../../Images/ProjectsImg/quakingAspen.jpg";
 import changeMakersImg from "../../Images/ProjectsImg/changemakers.jpg";
+import nimImg from "../../Images/ProjectsImg/nim.jpg";
+import guestbookImg from "../../Images/ProjectsImg/guestbook.jpg";
+import memeMuseumImg from "../../Images/ProjectsImg/memeMuseum.jpg";
 import { ReactComponent as WindowIcon } from "../../Images/Icons/windowIcon.svg";
 import { ReactComponent as GithubIcon } from "../../Images/Icons/githubIcon.svg";
 import "./index.scss";
@@ -19,8 +21,10 @@ const ProjectsList = ({ setCursorStyle, projectData }) => {
     madlibsImg: madlibsImg,
     moviesHubImg: moviesHubImg,
     quakingAspenImg: quakingAspenImg,
-    sealrImg: sealrImg,
     changeMakersImg: changeMakersImg,
+    nimImg:nimImg,   
+    guestbookImg:guestbookImg,
+    memeMuseumImg:memeMuseumImg
   };
 
   const projects = projectData.map((project, index) => {

@@ -42,6 +42,57 @@
       ]
     },
     {
+      "link": "https://near-in-minutes.com/",
+      "githubLink": "https://github.com/near-in-minutes/frontend",
+      "name": "NEAR in Minutes",
+      "shortDescription": "NEAR in Minutes makes it as easily as possible to learn about NEAR by binge-watching videos in your favorite language.",
+      "mainImg": "nimImg",
+      "path": "/nim",
+      "tags": ["UI/UX Design", "Website Development", "All"],
+      "img2": "",
+      "technologies": [
+        "TailwindCSS",
+        "JavaScript",
+        "Vue",
+        "Airtable"
+      ]
+    },
+    {
+      "link": "https://quakingaspen.net/",
+      "githubLink": "no",
+      "name": "Quaking Aspen",
+      "shortDescription": "Quaking aspen is a UK based client which I worked with a team of designers and programmers to deliver brand-identity and UI/UX of the project. ",
+      "mainImg": "quakingAspenImg",
+      "path": "/quacking-aspen",
+      "tags": ["UI/UX Design", "All"],
+      "img2": "quakingAspenImg2",
+      "technologies": ["HTML", "CSS", "JavaScript", "Vue", "Adobe XD"]
+    },
+  
+    {
+      "link": "https://near-guestbook.onrender.com/",
+      "githubLink": "https://github.com/hiba-machfej/near-guest-book-vue-ui",
+      "name": "Guest Book",
+      "shortDescription": "Sign in with NEAR and add a message to the guest book! A starter app built with an AssemblyScript backend and a Vue frontend. This Frontend is created for learning purposes. ",
+      "mainImg": "guestbookImg",
+      "path": "/guestbook",
+      "tags": ["Website Development", "All"],
+      "img2": "",
+      "technologies": ["TailwindCSS", "JavaScript", "Vue"]
+    },
+    
+    {
+      "link": "https://near-meme-museum.onrender.com/",
+      "githubLink": "https://github.com/hiba-machfej/near-meme-museum-ui",
+      "name": "Meme Museum",
+      "shortDescription": "Sign in with NEAR and Share your favorite MEME. Comment, vote, and engage with all the cool memes! A starter app built with an AssemblyScript backend and a Vue frontend. This Frontend is created for learning purposes.",
+      "mainImg": "memeMuseumImg",
+      "path": "/meme-museum",
+      "tags": ["Website Development", "All"],
+      "img2": "",
+      "technologies": ["TailwindCSS", "JavaScript", "Vue"]
+    },
+    {
       "link": "https://movieshubs.netlify.app/",
       "githubLink": "https://github.com/hiba-machfej/movie-project",
       "name": "Movies Hub",
@@ -54,17 +105,6 @@
     },
 
     {
-      "link": "https://quakingaspen.net/",
-      "githubLink": "no",
-      "name": "Quaking Aspen",
-      "shortDescription": "Quaking aspen is a UK based client which I worked with a team of designers and programmers to deliver brand-identity and UI/UX of the project. ",
-      "mainImg": "quakingAspenImg",
-      "path": "/quacking-aspen",
-      "tags": ["UI/UX Design", "All"],
-      "img2": "quakingAspenImg2",
-      "technologies": ["HTML", "CSS", "JavaScript", "Vue", "Adobe XD"]
-    },
-    {
       "link": "https://madreamlibs.netlify.app/",
       "githubLink": "https://github.com/hiba-machfej/ma-dream-libz",
       "name": "MaDreamLibs",
@@ -75,24 +115,11 @@
       "img2": "madlibsImg2",
       "technologies": ["HTML", "CSS", "JavaScript"]
     },
-
-    {
-      "link": "https://www.sealr.app/",
-      "githubLink": "no",
-      "name": "Sealr",
-      "shortDescription": "In the design of Sealr website, we worked on delivering a complex message simply.",
-      "mainImg": "sealrImg",
-      "path": "/sealr",
-      "tags": ["UI/UX Design", "All"],
-      "img2": "sealrImg2",
-      "technologies": ["HTML", "CSS", "JavaScript", "Vue", "Adobe XD"]
-    },
-
     {
       "link": "no",
       "githubLink": "no",
       "name": "Change Makers",
-      "shortDescription": "",
+      "shortDescription": "This design was created for change makers platform.",
       "mainImg": "changeMakersImg",
       "path": "/changemakers",
       "tags": ["UI/UX Design", "All"],
