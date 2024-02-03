@@ -23,6 +23,41 @@
       ]
     },
     {
+      "link": "https://near-in-minutes.onrender.com/",
+      "githubLink": "https://github.com/near-in-minutes/frontend",
+      "name": "NEAR in Minutes",
+      "shortDescription": "NEAR in Minutes makes it as easily as possible to learn about NEAR by binge-watching videos in your favorite language.",
+      "mainImg": "nimImg",
+      "path": "/nim",
+      "tags": ["UI/UX Design", "Website Development", "All"],
+      "img2": "",
+      "technologies": [
+        "TailwindCSS",
+        "JavaScript",
+        "Vue",
+        "Airtable"
+      ]
+    },
+    {
+      "link": "https://near-by-example.onrender.com/",
+      "githubLink": "https://github.com/hiba-machfej/near-by-example/tree/master",
+      "name": "NEAR Example",
+      "shortDescription": "An introduction to NEAR with simple examples",
+      "mainImg": "nearExampleImg2",
+      "path": "/near-by-example",
+      "tags": ["UI/UX Design", "Website Development", "All"],
+      "img2": "nearExampleImg2",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Figma",
+        "Firebase",
+        "TailwindCSS"
+      ]
+    },
+    {
       "link": "https://travelboard-khk.netlify.app/",
       "githubLink": "https://github.com/hiba-machfej/board-project",
       "name": "Travel Board",
@@ -39,22 +74,6 @@
         "Figma",
         "Firebase",
         "Bootstrap"
-      ]
-    },
-    {
-      "link": "https://near-in-minutes.onrender.com/",
-      "githubLink": "https://github.com/near-in-minutes/frontend",
-      "name": "NEAR in Minutes",
-      "shortDescription": "NEAR in Minutes makes it as easily as possible to learn about NEAR by binge-watching videos in your favorite language.",
-      "mainImg": "nimImg",
-      "path": "/nim",
-      "tags": ["UI/UX Design", "Website Development", "All"],
-      "img2": "",
-      "technologies": [
-        "TailwindCSS",
-        "JavaScript",
-        "Vue",
-        "Airtable"
       ]
     },
     {

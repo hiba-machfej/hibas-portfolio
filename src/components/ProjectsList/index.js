@@ -10,6 +10,8 @@ import changeMakersImg from "../../Images/ProjectsImg/changemakers.jpg";
 import nimImg from "../../Images/ProjectsImg/nim.jpg";
 import guestbookImg from "../../Images/ProjectsImg/guestbook.jpg";
 import memeMuseumImg from "../../Images/ProjectsImg/memeMuseum.jpg";
+import nearExampleImg from "../../Images/ProjectsImg/nearExampleImg.jpg"
+import nearExampleImg2 from "../../Images/ProjectsImg/nearExampleImg2.jpg"
 import { ReactComponent as WindowIcon } from "../../Images/Icons/windowIcon.svg";
 import { ReactComponent as GithubIcon } from "../../Images/Icons/githubIcon.svg";
 import "./index.scss";
@@ -23,6 +25,8 @@ const ProjectsList = ({ setCursorStyle, projectData }) => {
     quakingAspenImg: quakingAspenImg,
     changeMakersImg: changeMakersImg,
     nimImg:nimImg,   
+    nearExampleImg:nearExampleImg,
+    nearExampleImg2:nearExampleImg2,
     guestbookImg:guestbookImg,
     memeMuseumImg:memeMuseumImg
   };

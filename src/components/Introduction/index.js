@@ -50,11 +50,11 @@ const Introduction = () => {
         </p>
 
         <p className="studies">
-          I have certificates from
-          <a href="https://www.re-coded.com/" target="_blank" rel="noreferrer">
-            Re:coded
+          I have certificates from &nbsp;
+          <a href="https://www.re-coded.com/" target="_blank" rel="noreferrer"> 
+            Re:coded 
           </a>
-          and
+          &nbsp; and &nbsp;
           <a
             href="https://flatironschool.com/"
             target="_blank"

@@ -6,6 +6,8 @@ import moviesHubImg from "../../Images/ProjectsImg/moviesHub.jpg";
 import quakingAspenImg from "../../Images/ProjectsImg/quakingAspen.jpg";
 import changeMakersImg from "../../Images/ProjectsImg/changemakers.jpg";
 import nimImg from "../../Images/ProjectsImg/nim.jpg";
+import nearExampleImg from "../../Images/ProjectsImg/nearExampleImg.jpg"
+import nearExampleImg2 from "../../Images/ProjectsImg/nearExampleImg2.jpg"
 import guestbookImg from "../../Images/ProjectsImg/guestbook.jpg";
 import memeMuseumImg from "../../Images/ProjectsImg/memeMuseum.jpg";
 import { ReactComponent as WindowIcon } from "../../Images/Icons/windowIcon.svg";
@@ -21,6 +23,8 @@ const SingleProject = ({ project }) => {
     quakingAspenImg: quakingAspenImg,
     changeMakersImg: changeMakersImg,
     nimImg:nimImg,
+    nearExampleImg:nearExampleImg,
+    nearExampleImg2:nearExampleImg2,
     guestbookImg:guestbookImg,
     memeMuseumImg:memeMuseumImg
   };
